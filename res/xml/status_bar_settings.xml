@@ -28,7 +28,13 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
-        <Preference
+    <Preference
+        android:key="traffic"
+        android:fragment="com.revengeos.settings.fragment.Traffic"
+        android:title="@string/traffic_title"
+        android:summary="@string/traffic_title_summary" />
+
+    <Preference
         android:key="display_cutout_force_fullscreen_settings"
         android:title="@string/display_cutout_force_fullscreen_title"
         android:summary="@string/display_cutout_force_fullscreen_summary"
