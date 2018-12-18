@@ -21,6 +21,13 @@
         android:title="@string/network_traffic_state_title"
         android:defaultValue="true" />
 
+    <com.revengeos.settings.preference.SystemSettingSwitchPreference
+        android:key="network_traffic_hidearrow"
+        android:title="@string/network_traffic_hidearrow"
+        android:summary="@string/network_traffic_hidearrow_summary"
+        android:dependency="network_traffic_state"
+        android:defaultValue="false" />
+
      <com.revengeos.settings.preference.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold_title"
