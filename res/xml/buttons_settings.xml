@@ -144,6 +144,12 @@
             android:entryValues="@array/hardware_keys_action_values"
             android:persistent="false" />
 
+        <com.revengeos.settings.preference.SystemSettingSwitchPreference
+            android:key="swap_navigation_keys"
+            android:title="@string/swap_navigation_keys_title"
+            android:summary="@string/swap_navigation_keys_title_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

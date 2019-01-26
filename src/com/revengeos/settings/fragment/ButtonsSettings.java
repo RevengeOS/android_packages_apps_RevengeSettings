@@ -170,6 +170,7 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
             }
         } else {
             prefScreen.removePreference(backCategory);
+                prefScreen.removePreference(findPreference(Settings.System.SWAP_NAVIGATION_KEYS));
         }
 
         if (hasMenuKey) {
