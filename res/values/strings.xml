@@ -116,4 +116,8 @@
     <string name="statusbar_title">Status bar</string>
     <string name="statusbar_items_title">Icons</string>
     <string name="status_bar_items_summary">Add or remove status bar icons</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 </resources>
