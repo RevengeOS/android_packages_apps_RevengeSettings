@@ -19,6 +19,7 @@
 <resources>
     <!-- Generic strings -->
     <string name="unknown">Unknown</string>
+    <string name="default_text">Default</string>
 
     <!-- Device info strings -->
     <string name="software_version">RevengeOS version</string>
