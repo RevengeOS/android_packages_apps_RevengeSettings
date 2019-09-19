@@ -19,19 +19,27 @@ package com.revengeos.settings.preference.deviceinfo;
 
 import android.content.Context;
 import android.os.SystemProperties;
-import android.util.AttributeSet;
-import android.widget.TextView;
 
+import com.android.settings.core.BasePreferenceController;
 import com.android.settings.R;
 
-public class SoftwareVersionTextView extends TextView {
-    private static final String TAG = "SoftwareVersionTextView";
+public class RevengeOSVersionPreferenceController extends BasePreferenceController {
 
-    private static final String KEY_SOFTWARE_VERSION_PROP = "ro.revengeos.version";
+    private final String KEY_REVENGEOS_VERSION_PROP = "ro.revengeos.version";
+ 
+    public RevengeOSVersionPreferenceController(Context context,
+            String preferenceKey) {
+        super(context, preferenceKey);
+    }
 
-    public SoftwareVersionTextView(Context context, AttributeSet attrs) {
-        super(context, attrs);
-        setText(SystemProperties.get(KEY_SOFTWARE_VERSION_PROP,
-                context.getResources().getString(R.string.unknown)));
+    @Override
+    public int getAvailabilityStatus() {
+        return AVAILABLE_UNSEARCHABLE;
+    }
+
+    @Override
+    public CharSequence getSummary() {
+        return SystemProperties.get(KEY_REVENGEOS_VERSION_PROP,
+                mContext.getString(R.string.unknown));
     }
 }
