@@ -66,6 +66,16 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="navbar_key"
+        android:title="@string/navbar_title">
+
+        <com.revengeos.settings.preference.SecureSettingSwitchPreference
+            android:key="sysui_nav_bar_inverse"
+            android:title="@string/invert_navbar_buttons_title"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="home_key"
         android:title="@string/hardware_keys_home_key_title" >
 
