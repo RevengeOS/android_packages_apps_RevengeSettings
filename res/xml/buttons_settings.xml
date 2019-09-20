@@ -16,14 +16,9 @@
  * limitations under the License.
  */
 -->
-<resources>
-    <!-- Generic strings -->
-    <string name="unknown">Unknown</string>
-    <string name="default_text">Default</string>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/buttons_settings_title">
 
-    <!-- Device info strings -->
-    <string name="revengeos_version">RevengeOS version</string>
-
-    <!-- Button settings -->
-    <string name="buttons_settings_title">Buttons</string>
-</resources>
+</PreferenceScreen>
