@@ -45,6 +45,7 @@ import com.android.settings.Utils;
 import com.android.settingslib.search.SearchIndexable;
 
 import static com.revengeos.internal.util.hwkeys.DeviceKeysConstants.*;
+import com.revengeos.internal.util.NavBarUtils;
 import com.revengeos.settings.preference.*;
 
 import java.util.Arrays;
@@ -64,6 +65,7 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
     private static final String KEY_ASSIST_LONG_PRESS = "hardware_keys_assist_long_press";
     private static final String KEY_APP_SWITCH_PRESS = "hardware_keys_app_switch_press";
     private static final String KEY_APP_SWITCH_LONG_PRESS = "hardware_keys_app_switch_long_press";
+    private static final String DISABLE_NAV_KEYS = "disable_nav_keys";
 
     private static final String CATEGORY_HOME = "home_key";
     private static final String CATEGORY_BACK = "back_key";
@@ -84,6 +86,7 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
     private SwitchPreference mCameraWakeScreen;
     private SwitchPreference mCameraSleepOnRelease;
     private SwitchPreference mCameraLaunch;
+    private SwitchPreference mDisableNavigationKeys;
 
     private Handler mHandler;
 
@@ -132,6 +135,9 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
 
         mHandler = new Handler();
 
+        // Force Navigation bar related options
+        mDisableNavigationKeys = (SwitchPreference) findPreference(DISABLE_NAV_KEYS);
+
         Action defaultHomeLongPressAction = Action.fromIntSafe(res.getInteger(
                 com.android.internal.R.integer.config_longPressOnHomeBehaviorHwKeys));
         Action defaultHomeDoubleTapAction = Action.fromIntSafe(res.getInteger(
@@ -149,6 +155,15 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
         Action appSwitchLongPressAction = Action.fromSettings(resolver,
                 Settings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION,
                 defaultAppSwitchLongPressAction);
+
+        // Only visible on devices that does not have a navigation bar already
+        if (NavBarUtils.canDisableHwKeys(getActivity())) {
+            // Remove keys that can be provided by the navbar
+            updateDisableNavkeysOption();
+            updateDisableNavkeysCategories(mDisableNavigationKeys.isChecked());
+        } else {
+            prefScreen.removePreference(mDisableNavigationKeys);
+        }
 
         if (hasHomeKey) {
             if (!showHomeWake) {
@@ -369,6 +384,81 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
             return true;
         }
         return false;
+    }
+
+    private void writeDisableNavkeysOption(boolean enabled) {
+        Settings.System.putIntForUser(getActivity().getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0, UserHandle.USER_CURRENT);
+    }
+
+    private void updateDisableNavkeysOption() {
+        boolean enabled = Settings.System.getIntForUser(getActivity().getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0;
+
+        mDisableNavigationKeys.setChecked(enabled);
+    }
+
+    private void updateDisableNavkeysCategories(boolean navbarEnabled) {
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        /* Disable hw-key options if they're disabled */
+        final PreferenceCategory homeCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_HOME);
+        final PreferenceCategory backCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_BACK);
+        final PreferenceCategory menuCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
+        final PreferenceCategory assistCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_ASSIST);
+        final PreferenceCategory appSwitchCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_APPSWITCH);
+        final ButtonBacklightBrightness backlight =
+                (ButtonBacklightBrightness) prefScreen.findPreference(KEY_BUTTON_BACKLIGHT);
+
+        /* Toggle backlight control depending on navbar state, force it to
+           off if enabling */
+        if (backlight != null) {
+            backlight.setEnabled(!navbarEnabled);
+            backlight.updateSummary();
+        }
+
+        if (homeCategory != null) {
+            homeCategory.setEnabled(!navbarEnabled);
+        }
+        if (backCategory != null) {
+            backCategory.setEnabled(!navbarEnabled);
+        }
+        if (menuCategory != null) {
+            menuCategory.setEnabled(!navbarEnabled);
+        }
+        if (assistCategory != null) {
+            assistCategory.setEnabled(!navbarEnabled);
+        }
+        if (appSwitchCategory != null) {
+            appSwitchCategory.setEnabled(!navbarEnabled);
+        }
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mDisableNavigationKeys) {
+            mDisableNavigationKeys.setEnabled(false);
+            writeDisableNavkeysOption(mDisableNavigationKeys.isChecked());
+            updateDisableNavkeysOption();
+            updateDisableNavkeysCategories(true);
+            mHandler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        mDisableNavigationKeys.setEnabled(true);
+                        updateDisableNavkeysCategories(mDisableNavigationKeys.isChecked());
+                    }catch(Exception e){
+                    }
+                }
+            }, 1000);
+        }
+
+        return super.onPreferenceTreeClick(preference);
     }
 
     @Override
