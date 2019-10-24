@@ -111,4 +111,9 @@
     <!-- Swap hw keys -->
     <string name="swap_navigation_keys_title">Swap hardware buttons</string>
     <string name="swap_navigation_keys_title_summary">Swap the order of recents and back buttons</string>
+
+    <!-- Status bar tuner-->
+    <string name="statusbar_title">Status bar</string>
+    <string name="statusbar_items_title">Icons</string>
+    <string name="status_bar_items_summary">Add or remove status bar icons</string>
 </resources>
