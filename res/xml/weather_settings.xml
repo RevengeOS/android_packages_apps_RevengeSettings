@@ -42,7 +42,7 @@
             android:dialogTitle="@string/lockscreen_weather_style_title"
             android:entries="@array/lockscreen_weather_style_entries"
             android:entryValues="@array/lockscreen_weather_style_values"
-            android:defaultValue="0"
+            android:defaultValue="1"
             android:dependency="lockscreen_weather_enabled"
             android:summary="%s" />
 
