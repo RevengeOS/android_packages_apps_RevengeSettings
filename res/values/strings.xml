@@ -167,9 +167,11 @@
     <string name="media_art_title">Media artwork</string>
     <string name="media_art_summary">Show media cover art as the lockscreen background</string>
     <string name="lockscreen_media_blur_title">Media artwork blur level</string>
+    <string name="art_work_title">Artwork</string>
 
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_enable">Music Visualizer</string>
     <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
+    <string name="visualizer_title">Visualizer</string>
 
 </resources>
