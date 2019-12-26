@@ -23,6 +23,7 @@
 
     <!-- Device info strings -->
     <string name="revengeos_version">RevengeOS version</string>
+    <string name="revengeos_build_id">RevengeOS build ID</string>
 
     <!-- Button settings -->
     <string name="buttons_settings_title">Buttons</string>
