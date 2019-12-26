@@ -25,7 +25,7 @@ import com.android.settings.R;
 
 public class RevengeOSVersionPreferenceController extends BasePreferenceController {
 
-    private final String KEY_REVENGEOS_VERSION_PROP = "ro.revengeos.revision";
+    private final String KEY_REVENGEOS_VERSION_PROP = "ro.revengeos.version";
  
     public RevengeOSVersionPreferenceController(Context context,
             String preferenceKey) {
