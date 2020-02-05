@@ -28,7 +28,7 @@
             android:key="lockscreen_weather_enabled"
             android:title="@string/lockscreen_weather_enabled_title"
             android:summary="@string/lockscreen_weather_enabled_summary"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
         <Preference
             android:key="omnijaws_settings"
