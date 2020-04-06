@@ -67,6 +67,8 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
     private static final String KEY_APP_SWITCH_LONG_PRESS = "hardware_keys_app_switch_long_press";
     private static final String DISABLE_NAV_KEYS = "disable_nav_keys";
     private static final String KEY_TORCH_LONG_PRESS_POWER_TIMEOUT = "torch_long_press_power_timeout";
+    private static final String TOGGLE_POWER_BUTTON_ENDS_CALL_PREFERENCE =
+            "toggle_power_button_ends_call_preference";
 
     private static final String CATEGORY_HOME = "home_key";
     private static final String CATEGORY_BACK = "back_key";
@@ -89,6 +91,7 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
     private SwitchPreference mCameraSleepOnRelease;
     private SwitchPreference mCameraLaunch;
     private SwitchPreference mDisableNavigationKeys;
+    private SwitchPreference mTogglePowerButtonEndsCallPreference;
 
     private Handler mHandler;
 
@@ -143,6 +146,20 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
                         Settings.System.TORCH_LONG_PRESS_POWER_TIMEOUT, 0);
         mTorchLongPressPowerTimeout.setValue(Integer.toString(TorchTimeout));
         mTorchLongPressPowerTimeout.setSummary(mTorchLongPressPowerTimeout.getEntry());
+
+        // Power button ends calls.
+        mTogglePowerButtonEndsCallPreference =
+                (SwitchPreference) findPreference(TOGGLE_POWER_BUTTON_ENDS_CALL_PREFERENCE);
+        if (!Utils.isVoiceCapable(getActivity())) {
+            prefScreen.removePreference(mTogglePowerButtonEndsCallPreference);
+        } else {
+            final int incallPowerBehavior = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR,
+                    Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR_DEFAULT);
+            final boolean powerButtonEndsCall =
+                    (incallPowerBehavior == Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR_HANGUP);
+            mTogglePowerButtonEndsCallPreference.setChecked(powerButtonEndsCall);
+        }
 
         mHandler = new Handler();
 
@@ -460,6 +477,14 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
         }
     }
 
+    private void handleTogglePowerButtonEndsCallPreferenceClick() {
+        Settings.Secure.putInt(getContentResolver(),
+                Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR,
+                (mTogglePowerButtonEndsCallPreference.isChecked()
+                        ? Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR_HANGUP
+                        : Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR_SCREEN_OFF));
+    }
+
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mDisableNavigationKeys) {
@@ -477,7 +502,10 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
                     }
                 }
             }, 1000);
-        }
+        } else if (mTogglePowerButtonEndsCallPreference == preference) {
+            handleTogglePowerButtonEndsCallPreferenceClick();
+            return true;
+        } 
 
         return super.onPreferenceTreeClick(preference);
     }

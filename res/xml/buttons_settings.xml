@@ -42,6 +42,11 @@
             android:title="@string/power_menu_title"
             android:fragment="com.revengeos.settings.fragment.PowerMenuActions" />
 
+        <SwitchPreference
+            android:key="toggle_power_button_ends_call_preference"
+            android:title="@string/accessibility_power_button_ends_call_prerefence_title"
+            android:persistent="false"/>
+
         <com.revengeos.settings.preference.SystemSettingSwitchPreference
             android:key="torch_long_press_power_gesture"
             android:title="@string/torch_long_press_power_gesture_title"
