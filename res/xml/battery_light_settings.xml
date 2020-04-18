@@ -25,7 +25,7 @@
     <com.revengeos.settings.preference.SystemSettingSwitchPreference
         android:key="battery_light_allow_on_dnd"
         android:title="@string/battery_light_allow_on_dnd_title"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <com.revengeos.settings.preference.SystemSettingSwitchPreference
         android:key="battery_light_low_blinking"
