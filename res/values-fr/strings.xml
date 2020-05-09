@@ -18,166 +18,166 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic strings -->
-    <string name="unknown">Unknown</string>
-    <string name="default_text">Default</string>
+    <string name="unknown">Inconnu</string>
+    <string name="default_text">Par défaut</string>
     <!-- Device info strings -->
-    <string name="revengeos_version">RevengeOS version</string>
-    <string name="revengeos_build_id">RevengeOS build ID</string>
+    <string name="revengeos_version">Version de RevengeOS</string>
+    <string name="revengeos_build_id">ID de build RevengeOS</string>
     <!-- Button settings -->
-    <string name="buttons_settings_title">Buttons</string>
+    <string name="buttons_settings_title">Boutons</string>
     <!-- Volume category -->
-    <string name="volume_keys_category">Volume Keys</string>
+    <string name="volume_keys_category">Touches de volume</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Réveil par les boutons de volume</string>
+    <string name="volume_rocker_wake_summary">Appuyer sur les touches de volume réveillera votre appareil</string>
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">Contrôle de lecture</string>
+    <string name="volume_rocker_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume permet de changer la piste musicale</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Sélecteur de couleur</string>
+    <string name="press_color_to_apply">Appuyez sur la couleur ci-dessous pour l\'appliquer</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">Hexa :</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">Régler</string>
+    <string name="color_default">Par défaut</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_enable">Enable</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_settings">Voyant de charge batterie</string>
+    <string name="battery_light_enable">Activer</string>
+    <string name="battery_light_allow_on_dnd_title">Voyant de la batterie en mode Ne pas déranger</string>
+    <string name="battery_light_low_blinking_title">Lumière clignotante sur batterie faible</string>
+    <string name="battery_light_cat">Couleur du voyant de la batterie lors de la charge</string>
+    <string name="battery_light_low_color">Batterie faible</string>
+    <string name="battery_light_medium_color">Batterie moyenne</string>
+    <string name="battery_light_full_color">Batterie presque pleine</string>
+    <string name="battery_light_reallyfull_color">Batterie pleine (100)</string>
     <!-- Generic stuff used everywhere -->
     <string name="reset">Reset</string>
     <!-- Buttons -->
-    <string name="button_pref_title">Buttons</string>
-    <string name="hardware_keys_power_key_title">Power button</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
-    <string name="hardware_keys_appswitch_key_title">Recents button</string>
-    <string name="hardware_keys_camera_key_title">Camera button</string>
-    <string name="hardware_keys_short_press_title">Short press action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys_action_nothing">No action</string>
-    <string name="hardware_keys_action_menu">Open/close menu</string>
-    <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
-    <string name="hardware_keys_action_search">Search assistant</string>
-    <string name="hardware_keys_action_voice_search">Voice search</string>
-    <string name="hardware_keys_action_in_app_search">In-app search</string>
-    <string name="hardware_keys_action_launch_camera">Launch camera</string>
-    <string name="hardware_keys_action_sleep">Turn screen off</string>
-    <string name="hardware_keys_action_split_screen">Split screen</string>
-    <string name="hardware_keys_swipe_right_key_title">Swipe right</string>
-    <string name="hardware_keys_swipe_left_key_title">Swipe left</string>
-    <string name="hardware_keys_long_tap_key_title">Long tap</string>
-    <string name="hardware_keys_swipe_tap_title">Swipe action</string>
-    <string name="hardware_keys_long_tap_title">Long tap action</string>
-    <string name="button_wake_title">Wake device</string>
-    <string name="camera_sleep_on_release_title">Screen peek</string>
-    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
-    <string name="camera_launch_title">Launch camera</string>
-    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="button_pref_title">Boutons</string>
+    <string name="hardware_keys_power_key_title">Bouton marche/arrêt</string>
+    <string name="hardware_keys_home_key_title">Bouton Accueil</string>
+    <string name="hardware_keys_back_key_title">Bouton Retour</string>
+    <string name="hardware_keys_menu_key_title">Bouton Menu</string>
+    <string name="hardware_keys_assist_key_title">Bouton de recherche</string>
+    <string name="hardware_keys_appswitch_key_title">Bouton des applications récentes</string>
+    <string name="hardware_keys_camera_key_title">Bouton appareil photo</string>
+    <string name="hardware_keys_short_press_title">Action pour appui court</string>
+    <string name="hardware_keys_long_press_title">Action sur appui long</string>
+    <string name="hardware_keys_double_tap_title">Action de double appui</string>
+    <string name="hardware_keys_action_nothing">Aucune action</string>
+    <string name="hardware_keys_action_menu">Ouvrir/fermer le menu</string>
+    <string name="hardware_keys_action_app_switch">Sélecteur d\'applications récentes</string>
+    <string name="hardware_keys_action_search">Assistant de recherche</string>
+    <string name="hardware_keys_action_voice_search">Recherche vocale</string>
+    <string name="hardware_keys_action_in_app_search">Recherche dans l\'application</string>
+    <string name="hardware_keys_action_launch_camera">Lancer l\'appareil photo</string>
+    <string name="hardware_keys_action_sleep">Éteindre l\'écran</string>
+    <string name="hardware_keys_action_split_screen">Diviser l\'écran</string>
+    <string name="hardware_keys_swipe_right_key_title">Glisser vers la droite</string>
+    <string name="hardware_keys_swipe_left_key_title">Glisser vers la gauche</string>
+    <string name="hardware_keys_long_tap_key_title">Appui long</string>
+    <string name="hardware_keys_swipe_tap_title">Action de glissement</string>
+    <string name="hardware_keys_long_tap_title">Appui long</string>
+    <string name="button_wake_title">Réveiller l\'appareil</string>
+    <string name="camera_sleep_on_release_title">Aperçu de l\'écran</string>
+    <string name="camera_sleep_on_release_summary">Un demi appui maintiendra l\'écran allumé uniquement lorsque le bouton est enfoncé</string>
+    <string name="camera_launch_title">Lancer l\'appareil photo</string>
+    <string name="camera_launch_summary">Un appui long lancera la caméra</string>
     <!-- Key backlight -->
-    <string name="button_backlight_title">Backlight</string>
-    <string name="button_backlight_enabled">Illuminate buttons</string>
-    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
-    <string name="button_backlight_seekbar_title">Button brightness</string>
-    <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="button_backlight_title">Rétroéclairage</string>
+    <string name="button_backlight_enabled">Eclairage des boutons</string>
+    <string name="button_backlight_only_when_pressed_title">Illuminer les boutons uniquement quand il est appuyé</string>
+    <string name="button_backlight_seekbar_title">Luminosité des boutons</string>
+    <string name="backlight_timeout_title">Délai d\'éclairage</string>
+    <string name="backlight_timeout_unlimited">Ne pas éteindre</string>
+    <string name="backlight_summary_disabled">Désactivé</string>
+    <string name="backlight_summary_enabled_with_timeout">Activé pour <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Activé</string>
     <!-- Buttons - Enable navbar -->
-    <string name="disable_navkeys_title">Enable on-screen nav bar</string>
-    <string name="disable_navkeys_summary">Enable on-screen navigation bar and disable hardware buttons</string>
+    <string name="disable_navkeys_title">Activer la barre de navigation à l\'écran</string>
+    <string name="disable_navkeys_summary">Activer la barre de navigation à l\'écran et désactiver les boutons physiques</string>
     <!-- Swap hw keys -->
-    <string name="swap_navigation_keys_title">Swap hardware buttons</string>
-    <string name="swap_navigation_keys_title_summary">Swap the order of recents and back buttons</string>
+    <string name="swap_navigation_keys_title">Inverser les boutons physiques</string>
+    <string name="swap_navigation_keys_title_summary">Inverser l\'ordre des boutons récents et retour</string>
     <!-- Status bar tuner-->
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_items_title">Icons</string>
-    <string name="status_bar_items_summary">Add or remove status bar icons</string>
+    <string name="statusbar_title">Barre d\'état</string>
+    <string name="statusbar_items_title">Icônes</string>
+    <string name="status_bar_items_summary">Ajouter ou supprimer les icônes de la barre d\'état</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">Applications en plein écran</string>
+    <string name="display_cutout_force_fullscreen_summary">Forcer les applications à ignorer l\'espace disque</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_title_summary">Customize network traffic indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="traffic_title">Indicateurs de trafic</string>
+    <string name="traffic_title_summary">Personnaliser les indicateurs de trafic réseau</string>
+    <string name="network_traffic_title">Trafic réseau</string>
+    <string name="network_traffic_type">Sélectionnez le type d\'activité du réseau</string>
+    <string name="show_network_traffic_up">Liaison haut</string>
+    <string name="show_network_traffic_down">Lien descendant</string>
+    <string name="show_network_traffic_all">Liaison montante et descendante</string>
+    <string name="network_traffic_state_title">Afficher l\'activité réseau dans la barre d\'état</string>
+    <string name="network_traffic_autohide_threshold_title">Seuil de masquage automatique de l\'activité réseau (KB/s)</string>
+    <string name="network_traffic_hidearrow">Cacher les flèches</string>
+    <string name="network_traffic_hidearrow_summary">Masquer les flèches de l\'indicateur de trafic réseau</string>
     <!-- Power menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-    <string name="power_menu_lockdown_title">Lockdown</string>
+    <string name="power_menu_title">Menu marche/arrêt</string>
+    <string name="power_menu_screenshot_title">Capture d\'écran</string>
+    <string name="power_menu_screenshot_summary">Appui long pour une capture d\'écran partielle</string>
+    <string name="power_menu_airplane_title">Mode avion</string>
+    <string name="power_menu_users_title">Sélecteur d\'utilisateur</string>
+    <string name="power_menu_bug_report_title">Rapport de bug</string>
+    <string name="power_menu_bug_report_disabled">Le rapport de bug est désactivé dans les paramètres de développement</string>
+    <string name="power_menu_lockdown_title">Verrouiller</string>
     <!-- Advanced restart options -->
-    <string name="advanced_reboot_title">Advanced restart</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
-    <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="advanced_reboot_title">Redémarrage avancé</string>
+    <string name="advanced_reboot_summary">Lorsque déverrouillé, inclure des options dans le menu marche/arrêt pour redémarrer dans le recovery ou le bootloader</string>
+    <string name="torch_long_press_power_gesture_title">Lampe de poche du bouton d\'alimentation éteint de l\'écran</string>
+    <string name="torch_long_press_power_gesture_desc">Appuyez longuement sur le bouton Marche/Arrêt lorsque l\'écran est éteint pour allumer la lampe de poche</string>
+    <string name="torch_long_press_power_timeout_title">Désactiver automatiquement la lampe de poche</string>
+    <string name="torch_long_press_power_timeout_never">Jamais</string>
     <string name="torch_long_press_power_timeout_1min">1 minute</string>
     <string name="torch_long_press_power_timeout_2min">2 minutes</string>
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
     <!-- Media art -->
-    <string name="media_art_title">Media artwork</string>
-    <string name="media_art_summary">Show media cover art as the lockscreen background</string>
-    <string name="lockscreen_media_blur_title">Media artwork blur level</string>
-    <string name="art_work_title">Artwork</string>
+    <string name="media_art_title">Œuvre de média</string>
+    <string name="media_art_summary">Afficher la pochette du média comme fond de l\'écran de verrouillage</string>
+    <string name="lockscreen_media_blur_title">Niveau de flou des illustrations</string>
+    <string name="art_work_title">Œuvre</string>
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
-    <string name="visualizer_title">Visualizer</string>
+    <string name="lockscreen_visualizer_enable">Visualiseur de musique</string>
+    <string name="lockscreen_visualizer_enable_summary">Afficher les barres de visualisation lors de la lecture de la musique</string>
+    <string name="visualizer_title">Visualiseur</string>
     <!-- Ambient edge lighting -->
-    <string name="ambient_light_settings_title">Ambient light</string>
-    <string name="pulse_ambient_light_title">Edge lighting</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="pulse_ambient_light_color_title">Edge light color</string>
+    <string name="ambient_light_settings_title">Lumière ambiante</string>
+    <string name="pulse_ambient_light_title">Eclairage des bords</string>
+    <string name="pulse_ambient_light_summary">Allumer les bords latéraux de l\'écran lors de l\'impulsion de notification</string>
+    <string name="pulse_ambient_light_color_title">Couleur de la lumière du bord</string>
     <!-- Weather -->
-    <string name="weather_title">Weather</string>
+    <string name="weather_title">Météo</string>
     <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="lockscreen_weather_category">Météo</string>
+    <string name="lockscreen_weather_enabled_title">Afficher sur l\'écran de verrouillage</string>
+    <string name="lockscreen_weather_enabled_summary">Afficher les informations météo sur l\'écran de verrouillage et pendant la mise en veille</string>
+    <string name="lockscreen_weather_settings_title">Configuration des options météo</string>
+    <string name="lockscreen_weather_settings_summary">Configurer le pack d\'icônes et le service météo</string>
+    <string name="weather_config_title">Service météo</string>
+    <string name="weather_config_summary">Paramètres du service système</string>
+    <string name="header_weather_title">En-tête de la météo</string>
+    <string name="header_weather_summary">Activer l\'affichage de la météo dans l\'en-tête du panneau de notification</string>
+    <string name="weather_icon_pack_title">Pack d\'icônes de conditions</string>
+    <string name="weather_icon_pack_note">Remarque\u003a vous pouvez installer de nouveaux packs d\'icônes depuis le Play Store en recherchant \"Icônes Chronus\"</string>
+    <string name="weather_icon_pack_info_title">Le pack d\'icônes de conditions est utilisé dans les paramètres rapides et l\'écran de verrouillage</string>
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_style_title">Style météo</string>
     <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_pixel_style_title">Style Pixel</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+    <string name="battery_health_title">Santé de la batterie</string>
+    <string name="battery_health_summary">Surveiller l\'état de la batterie de votre appareil</string>
+    <string name="current_battery_capacity">Capacité de la batterie actuelle</string>
+    <string name="current_battery_capacity_summary">La capacité de batterie actuelle mesurée par le noyau</string>
+    <string name="designed_battery_capacity">Capacité de batterie conçue</string>
+    <string name="designed_battery_capacity_summary">La capacité de la batterie conçue par le fabricant</string>
 </resources>
