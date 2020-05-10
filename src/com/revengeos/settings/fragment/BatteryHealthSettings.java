@@ -18,8 +18,12 @@ package com.revengeos.settings.fragment;
 
 import android.annotation.Nullable;
 import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.BatteryManager;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.os.Handler;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.util.Log;
@@ -48,14 +52,20 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
     private static final String TAG = "BatteryHealthSettings";
     private static final String KEY_CURRENT_BATTERY_CAPACITY = "current_battery_capacity";
     private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
+    private static final String KEY_BATTERY_CURRENT = "battery_current";
 
     private static final String FILENAME_BATTERY_DESIGN_CAPACITY =
             "/sys/class/power_supply/bms/charge_full_design";
     private static final String FILENAME_BATTERY_CURRENT_CAPACITY =
             "/sys/class/power_supply/bms/charge_full";
 
+    private static final String FILENAME_BATTERY_CURRENT = 
+            "/sys/class/power_supply/bms/current_now";
+
     PowerGaugePreference mCurrentBatteryCapacity;
     PowerGaugePreference mDesignedBatteryCapacity;
+    PowerGaugePreference mBatteryCurrent;
+    Handler mhandler;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,10 +77,30 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
                 KEY_CURRENT_BATTERY_CAPACITY);
         mDesignedBatteryCapacity = (PowerGaugePreference) findPreference(
                 KEY_DESIGNED_BATTERY_CAPACITY);
-        mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_CURRENT_CAPACITY));
-        mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_DESIGN_CAPACITY));
-    }
+        mBatteryCurrent= (PowerGaugePreference) findPreference(
+                KEY_BATTERY_CURRENT);
+        
+        mCurrentBatteryCapacity.setSubtitle(parseBatteryCurrentData(FILENAME_BATTERY_CURRENT_CAPACITY) + " mAh");
+        mDesignedBatteryCapacity.setSubtitle(parseBatteryCurrentData(FILENAME_BATTERY_DESIGN_CAPACITY) + " mAh");
 
+        mhandler = new Handler();
+
+        final Runnable r = new Runnable() {
+            public void run() {
+                if (charging()){
+                    mBatteryCurrent.setSummary(getResources().getString(R.string.battery_current_negative));
+                } else {
+                    mBatteryCurrent.setSummary(getResources().getString(R.string.battery_current_positive));
+                }
+                mBatteryCurrent.setSubtitle(parseBatteryCurrentData(FILENAME_BATTERY_CURRENT) + " mA");
+                mhandler.postDelayed(this, 1000);
+            }
+        };
+        
+        mhandler.postDelayed(r, 1000);
+        
+    }
+    
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.REVENGEOS;
@@ -81,14 +111,29 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
         return false;
     }
 
-    private String parseBatterymAhText(String file) {
+    @Override
+    public void onPause() {
+        super.onPause();
+        mhandler.removeCallbacksAndMessages(null);
+    }
+
+    private boolean charging(){
+        IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+        Intent batteryStatus = getContext().registerReceiver(null, ifilter);
+        int status = batteryStatus.getIntExtra(BatteryManager.EXTRA_STATUS, -1);
+        boolean isCharging = status == BatteryManager.BATTERY_STATUS_CHARGING ||
+                     status == BatteryManager.BATTERY_STATUS_FULL;
+        return isCharging;
+    }
+
+    private String parseBatteryCurrentData(String file) {
         try {
-            return Integer.parseInt(readLine(file)) / 1000 + " mAh";
+            return Integer.toString(Integer.parseInt(readLine(file)) / 1000);
         } catch (IOException ioe) {
-            Log.e(TAG, "Cannot read battery capacity from "
+            Log.e(TAG, "Cannot read battery data from "
                     + file, ioe);
         } catch (NumberFormatException nfe) {
-            Log.e(TAG, "Read a badly formatted battery capacity from "
+            Log.e(TAG, "Read a badly formatted battery data from "
                     + file, nfe);
         }
         return getResources().getString(R.string.status_unavailable);
