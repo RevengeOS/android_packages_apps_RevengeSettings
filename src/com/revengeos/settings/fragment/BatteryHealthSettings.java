@@ -17,6 +17,7 @@
 package com.revengeos.settings.fragment;
 
 import android.annotation.Nullable;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -65,7 +66,9 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
     PowerGaugePreference mCurrentBatteryCapacity;
     PowerGaugePreference mDesignedBatteryCapacity;
     PowerGaugePreference mBatteryCurrent;
-    Handler mhandler;
+
+    Handler mHandler;
+    PowerConnectionReceiver powerConnectionReceiver;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -80,25 +83,8 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
         mBatteryCurrent= (PowerGaugePreference) findPreference(
                 KEY_BATTERY_CURRENT);
         
-        mCurrentBatteryCapacity.setSubtitle(parseBatteryCurrentData(FILENAME_BATTERY_CURRENT_CAPACITY) + " mAh");
-        mDesignedBatteryCapacity.setSubtitle(parseBatteryCurrentData(FILENAME_BATTERY_DESIGN_CAPACITY) + " mAh");
-
-        mhandler = new Handler();
-
-        final Runnable r = new Runnable() {
-            public void run() {
-                if (charging()){
-                    mBatteryCurrent.setSummary(getResources().getString(R.string.battery_current_negative));
-                } else {
-                    mBatteryCurrent.setSummary(getResources().getString(R.string.battery_current_positive));
-                }
-                mBatteryCurrent.setSubtitle(parseBatteryCurrentData(FILENAME_BATTERY_CURRENT) + " mA");
-                mhandler.postDelayed(this, 1000);
-            }
-        };
-        
-        mhandler.postDelayed(r, 1000);
-        
+        mCurrentBatteryCapacity.setSubtitle(parseBatteryCurrentData(FILENAME_BATTERY_CURRENT_CAPACITY, "mAh"));
+        mDesignedBatteryCapacity.setSubtitle(parseBatteryCurrentData(FILENAME_BATTERY_DESIGN_CAPACITY, "mAh"));
     }
     
     @Override
@@ -112,23 +98,34 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+        mHandler = new Handler();
+        final Runnable r = new Runnable() {
+            public void run() {
+                mBatteryCurrent.setSubtitle(parseBatteryCurrentData(FILENAME_BATTERY_CURRENT, "mA"));
+                mHandler.postDelayed(this, 1000);
+            }
+        };
+        mHandler.postDelayed(r, 1000);
+
+        powerConnectionReceiver = new PowerConnectionReceiver();
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(Intent.ACTION_POWER_CONNECTED);
+        filter.addAction(Intent.ACTION_POWER_DISCONNECTED);
+        getContext().registerReceiver(powerConnectionReceiver, filter);
+    }
+
+    @Override
     public void onPause() {
         super.onPause();
-        mhandler.removeCallbacksAndMessages(null);
+        mHandler.removeCallbacksAndMessages(null);
+        getContext().unregisterReceiver(powerConnectionReceiver);
     }
 
-    private boolean charging(){
-        IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
-        Intent batteryStatus = getContext().registerReceiver(null, ifilter);
-        int status = batteryStatus.getIntExtra(BatteryManager.EXTRA_STATUS, -1);
-        boolean isCharging = status == BatteryManager.BATTERY_STATUS_CHARGING ||
-                     status == BatteryManager.BATTERY_STATUS_FULL;
-        return isCharging;
-    }
-
-    private String parseBatteryCurrentData(String file) {
+    private String parseBatteryCurrentData(String file, String unit) {
         try {
-            return Integer.toString(Integer.parseInt(readLine(file)) / 1000);
+            return Integer.parseInt(readLine(file)) / 1000 + unit;
         } catch (IOException ioe) {
             Log.e(TAG, "Cannot read battery data from "
                     + file, ioe);
@@ -153,6 +150,17 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
             return reader.readLine();
         } finally {
             reader.close();
+        }
+    }
+
+    public class PowerConnectionReceiver extends BroadcastReceiver {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (intent.getAction().equals(Intent.ACTION_POWER_CONNECTED)) {
+                mBatteryCurrent.setSummary(getResources().getString(R.string.battery_charging_rate));
+            } else if (intent.getAction().equals(Intent.ACTION_POWER_DISCONNECTED)) {
+                mBatteryCurrent.setSummary(getResources().getString(R.string.battery_discharging_rate));
+            }
         }
     }
 }

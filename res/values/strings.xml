@@ -206,6 +206,6 @@
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
     <string name="battery_current">Current</string>
-    <string name="battery_current_positive">Discharging rate</string>
-    <string name="battery_current_negative">Charging rate</string>
+    <string name="battery_discharging_rate">Discharging rate</string>
+    <string name="battery_charging_rate">Charging rate</string>
 </resources>
