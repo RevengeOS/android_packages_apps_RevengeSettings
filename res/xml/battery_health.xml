@@ -30,9 +30,5 @@
         android:key="designed_battery_capacity"
         android:title="@string/designed_battery_capacity"
         android:summary="@string/designed_battery_capacity_summary" />
-      
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="battery_current"
-        android:title="@string/battery_current" />
 
 </PreferenceScreen>
