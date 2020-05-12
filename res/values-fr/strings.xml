@@ -180,7 +180,4 @@
     <string name="current_battery_capacity_summary">La capacité de batterie actuelle mesurée par le noyau</string>
     <string name="designed_battery_capacity">Capacité de batterie conçue</string>
     <string name="designed_battery_capacity_summary">La capacité de la batterie conçue par le fabricant</string>
-    <string name="battery_current">Current</string>
-    <string name="battery_discharging_rate">Discharging rate</string>
-    <string name="battery_charging_rate">Charging rate</string>
 </resources>
