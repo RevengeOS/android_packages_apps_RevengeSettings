@@ -141,43 +141,43 @@
     <string name="torch_long_press_power_timeout_5min">5 minuti</string>
     <string name="torch_long_press_power_timeout_10min">10 minuti</string>
     <!-- Media art -->
-    <string name="media_art_title">Media artwork</string>
-    <string name="media_art_summary">Show media cover art as the lockscreen background</string>
-    <string name="lockscreen_media_blur_title">Media artwork blur level</string>
-    <string name="art_work_title">Artwork</string>
+    <string name="media_art_title">Grafica multimediale</string>
+    <string name="media_art_summary">Visualizza la copertina dei media come sfondo della schermata di blocco</string>
+    <string name="lockscreen_media_blur_title">Livello di sfocatura file multimediali</string>
+    <string name="art_work_title">Grafica</string>
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
-    <string name="visualizer_title">Visualizer</string>
+    <string name="lockscreen_visualizer_enable">Visualizzatore musicale</string>
+    <string name="lockscreen_visualizer_enable_summary">Mostra le barre del visualizzatore durante la riproduzione di musica</string>
+    <string name="visualizer_title">Visualizzatore</string>
     <!-- Ambient edge lighting -->
-    <string name="ambient_light_settings_title">Ambient light</string>
-    <string name="pulse_ambient_light_title">Edge lighting</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="pulse_ambient_light_color_title">Edge light color</string>
+    <string name="ambient_light_settings_title">Luce ambientale</string>
+    <string name="pulse_ambient_light_title">Illuminazione dei bordi</string>
+    <string name="pulse_ambient_light_summary">Illumina i bordi laterali dello schermo all\'arrivo di una notifica</string>
+    <string name="pulse_ambient_light_color_title">Colore illuminazione bordo</string>
     <!-- Weather -->
-    <string name="weather_title">Weather</string>
+    <string name="weather_title">Meteo</string>
     <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="lockscreen_weather_category">Meteo</string>
+    <string name="lockscreen_weather_enabled_title">Mostra nella schermata di blocco</string>
+    <string name="lockscreen_weather_enabled_summary">Mostra le informazioni meteo nella schermata di blocco e durante la sospensione</string>
+    <string name="lockscreen_weather_settings_title">Configura opzioni meteo</string>
+    <string name="lockscreen_weather_settings_summary">Configura il pacchetto icone e il servizio meteo</string>
+    <string name="weather_config_title">Servizio meteo</string>
+    <string name="weather_config_summary">Impostazioni dei servizi di sistema</string>
+    <string name="header_weather_title">Mostra meteo nell\'intestazione</string>
+    <string name="header_weather_summary">Abilita la visualizzazione del meteo nell\'intestazione del pannello di notifica</string>
+    <string name="weather_icon_pack_title">Pacchetto icone condizioni meteo</string>
+    <string name="weather_icon_pack_note">Nota\u003a puoi installare nuovi pacchetti dal play store cercando \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Il pacchetto icone delle condizioni meteo viene utilizzato nelle impostazioni rapide e nella schermata di blocco</string>
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_style_title">Stile meteo</string>
     <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_pixel_style_title">Stile Pixel</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+    <string name="battery_health_title">Salute della batteria</string>
+    <string name="battery_health_summary">Controlla la salute della batteria del tuo dispositivo</string>
+    <string name="current_battery_capacity">Capacità attuale della batteria</string>
+    <string name="current_battery_capacity_summary">L\'attuale capacità della batteria misurata dal kernel</string>
+    <string name="designed_battery_capacity">Capacità progettata della batteria</string>
+    <string name="designed_battery_capacity_summary">La capacità della batteria progettata dal produttore</string>
 </resources>
