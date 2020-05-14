@@ -18,17 +18,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic strings -->
-    <string name="unknown">Unknown</string>
-    <string name="default_text">Default</string>
+    <string name="unknown">Sconosciuto</string>
+    <string name="default_text">Predefinito</string>
     <!-- Device info strings -->
-    <string name="revengeos_version">RevengeOS version</string>
-    <string name="revengeos_build_id">RevengeOS build ID</string>
+    <string name="revengeos_version">Versione RevengeOS</string>
+    <string name="revengeos_build_id">ID build RevengeOS</string>
     <!-- Button settings -->
-    <string name="buttons_settings_title">Buttons</string>
+    <string name="buttons_settings_title">Pulsanti</string>
     <!-- Volume category -->
-    <string name="volume_keys_category">Volume Keys</string>
+    <string name="volume_keys_category">Tasti Volume</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_title">Risveglio tasti volume</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Playback control</string>
