@@ -75,70 +75,70 @@
     <string name="hardware_keys_action_launch_camera">Avvia fotocamera</string>
     <string name="hardware_keys_action_sleep">Spegni schermo</string>
     <string name="hardware_keys_action_split_screen">Schermo diviso</string>
-    <string name="hardware_keys_swipe_right_key_title">Swipe right</string>
-    <string name="hardware_keys_swipe_left_key_title">Swipe left</string>
-    <string name="hardware_keys_long_tap_key_title">Long tap</string>
-    <string name="hardware_keys_swipe_tap_title">Swipe action</string>
-    <string name="hardware_keys_long_tap_title">Long tap action</string>
-    <string name="button_wake_title">Wake device</string>
-    <string name="camera_sleep_on_release_title">Screen peek</string>
-    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
-    <string name="camera_launch_title">Launch camera</string>
-    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="hardware_keys_swipe_right_key_title">Scorri a destra</string>
+    <string name="hardware_keys_swipe_left_key_title">Scorri a sinistra</string>
+    <string name="hardware_keys_long_tap_key_title">Tocco prolungato</string>
+    <string name="hardware_keys_swipe_tap_title">Azione scorrimento</string>
+    <string name="hardware_keys_long_tap_title">Azione tocco prolungato</string>
+    <string name="button_wake_title">Risveglia dispositivo</string>
+    <string name="camera_sleep_on_release_title">Sguardo allo schermo</string>
+    <string name="camera_sleep_on_release_summary">Una pressione a metà manterrà lo schermo acceso finché il pulsante resterà premuto</string>
+    <string name="camera_launch_title">Avvia fotocamera</string>
+    <string name="camera_launch_summary">Una pressione prolungata e il successivo rilascio attiveranno la fotocamera</string>
     <!-- Key backlight -->
-    <string name="button_backlight_title">Backlight</string>
-    <string name="button_backlight_enabled">Illuminate buttons</string>
-    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
-    <string name="button_backlight_seekbar_title">Button brightness</string>
-    <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="button_backlight_title">Retroilluminazione</string>
+    <string name="button_backlight_enabled">Illumina pulsanti</string>
+    <string name="button_backlight_only_when_pressed_title">Illumina i pulsanti solo se premuti</string>
+    <string name="button_backlight_seekbar_title">Luminosità pulsante</string>
+    <string name="backlight_timeout_title">Timeout illuminazione</string>
+    <string name="backlight_timeout_unlimited">Non spegnere</string>
+    <string name="backlight_summary_disabled">Disabilitato</string>
+    <string name="backlight_summary_enabled_with_timeout">Abilitato per <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Abilitato</string>
     <!-- Buttons - Enable navbar -->
-    <string name="disable_navkeys_title">Enable on-screen nav bar</string>
-    <string name="disable_navkeys_summary">Enable on-screen navigation bar and disable hardware buttons</string>
+    <string name="disable_navkeys_title">Abilita barra di navigazione su schermo</string>
+    <string name="disable_navkeys_summary">Attiva la barra di navigazione sullo schermo e disattiva i pulsanti fisici</string>
     <!-- Swap hw keys -->
-    <string name="swap_navigation_keys_title">Swap hardware buttons</string>
-    <string name="swap_navigation_keys_title_summary">Swap the order of recents and back buttons</string>
+    <string name="swap_navigation_keys_title">Inverti i pulsanti hardware</string>
+    <string name="swap_navigation_keys_title_summary">Inverti la posizione dei pulsanti Indietro e Recenti</string>
     <!-- Status bar tuner-->
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_items_title">Icons</string>
-    <string name="status_bar_items_summary">Add or remove status bar icons</string>
+    <string name="statusbar_title">Barra di stato</string>
+    <string name="statusbar_items_title">Icone</string>
+    <string name="status_bar_items_summary">Aggiungi o rimuovi icone nella barra di stato</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">App a schermo intero</string>
+    <string name="display_cutout_force_fullscreen_summary">Forza le applicazioni ad ignorare lo spazio del notch</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_title_summary">Customize network traffic indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="traffic_title">Indicatori di traffico</string>
+    <string name="traffic_title_summary">Personalizza gli indicatori del traffico di rete</string>
+    <string name="network_traffic_title">Traffico di rete</string>
+    <string name="network_traffic_type">Seleziona tipo attività di rete</string>
+    <string name="show_network_traffic_up">Upload</string>
+    <string name="show_network_traffic_down">Download</string>
+    <string name="show_network_traffic_all">Upload e Download</string>
+    <string name="network_traffic_state_title">Mostra attività di rete nella barra di stato</string>
+    <string name="network_traffic_autohide_threshold_title">Nascondi soglia per inattività (KB/s)</string>
+    <string name="network_traffic_hidearrow">Nascondi le frecce</string>
+    <string name="network_traffic_hidearrow_summary">Nascondi le frecce dell\'indicatore del traffico di rete</string>
     <!-- Power menu -->
-    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_title">Menu di spegnimento</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-    <string name="power_menu_lockdown_title">Lockdown</string>
+    <string name="power_menu_screenshot_summary">Premi a lungo per screenshot parziale</string>
+    <string name="power_menu_airplane_title">Modalità aereo</string>
+    <string name="power_menu_users_title">Cambia utente</string>
+    <string name="power_menu_bug_report_title">Segnalazione bug</string>
+    <string name="power_menu_bug_report_disabled">La segnalazione bug è disattivata nelle impostazioni sviluppatore</string>
+    <string name="power_menu_lockdown_title">Arresta</string>
     <!-- Advanced restart options -->
-    <string name="advanced_reboot_title">Advanced restart</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
-    <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
+    <string name="advanced_reboot_title">Riavvio avanzato</string>
+    <string name="advanced_reboot_summary">Quando sbloccato, mostra le opzioni per il riavvio in recovery o bootloader nel menu di accensione</string>
+    <string name="torch_long_press_power_gesture_title">Torcia a schermo spento con pulsante di accensione</string>
+    <string name="torch_long_press_power_gesture_desc">Tieni premuto a lungo il pulsante di accensione mentre lo schermo è spento per accendere la torcia</string>
+    <string name="torch_long_press_power_timeout_title">Spegni automaticamente la torcia</string>
+    <string name="torch_long_press_power_timeout_never">Mai</string>
+    <string name="torch_long_press_power_timeout_1min">1 minuto</string>
+    <string name="torch_long_press_power_timeout_2min">2 minuti</string>
+    <string name="torch_long_press_power_timeout_5min">5 minuti</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
     <!-- Media art -->
     <string name="media_art_title">Media artwork</string>
