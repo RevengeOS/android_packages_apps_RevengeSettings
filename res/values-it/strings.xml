@@ -34,7 +34,7 @@
     <string name="volume_rocker_music_controls_title">Controllo della riproduzione</string>
     <string name="volume_rocker_music_controls_summary">Quando lo schermo è spento, la pressione prolungata dei tasti volume cambierà traccia</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Selettore colore</string>
+    <string name="dialog_color_picker">Selettore dei colori</string>
     <string name="press_color_to_apply">Premi sul colore qui sotto per applicarlo</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
