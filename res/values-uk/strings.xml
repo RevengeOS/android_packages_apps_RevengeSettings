@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic strings -->
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Хуіла</string>
     <string name="default_text">Default</string>
     <!-- Device info strings -->
     <string name="revengeos_version">RevengeOS version</string>
