@@ -18,23 +18,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic strings -->
-    <string name="unknown">Unknown</string>
-    <string name="default_text">Default</string>
+    <string name="unknown">Nieznany</string>
+    <string name="default_text">Domyślny</string>
     <!-- Device info strings -->
-    <string name="revengeos_version">RevengeOS version</string>
-    <string name="revengeos_build_id">RevengeOS build ID</string>
+    <string name="revengeos_version">Wersja RevengeOS</string>
+    <string name="revengeos_build_id">ID kompilacji RevengeOS</string>
     <!-- Button settings -->
-    <string name="buttons_settings_title">Buttons</string>
+    <string name="buttons_settings_title">Przyciski</string>
     <!-- Volume category -->
-    <string name="volume_keys_category">Volume Keys</string>
+    <string name="volume_keys_category">Klawisze głośności</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Wybudzanie przyciskami głośności</string>
+    <string name="volume_rocker_wake_summary">Naciśnięcie przycisków głośności obudzi twoje urządzenie</string>
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">Kontrola odtwarzania</string>
+    <string name="volume_rocker_music_controls_summary">Gdy ekran jest wyłączony, długie naciśnięcie klawiszy głośności będzie przełączać utwory muzyczne</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
+    <string name="dialog_color_picker">Wybór kolorów</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
