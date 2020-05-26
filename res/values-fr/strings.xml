@@ -101,6 +101,9 @@
     <!-- Swap hw keys -->
     <string name="swap_navigation_keys_title">Inverser les boutons physiques</string>
     <string name="swap_navigation_keys_title_summary">Inverser l\'ordre des boutons récents et retour</string>
+    <!-- Navbar -->
+    <string name="navbar_title">Navigation bar</string>
+    <string name="invert_navbar_buttons_title">Invert navigation buttons</string>
     <!-- Status bar tuner-->
     <string name="statusbar_title">Barre d\'état</string>
     <string name="statusbar_items_title">Icônes</string>
