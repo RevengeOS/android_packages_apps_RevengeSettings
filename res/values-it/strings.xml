@@ -102,8 +102,8 @@
     <string name="swap_navigation_keys_title">Inverti i pulsanti hardware</string>
     <string name="swap_navigation_keys_title_summary">Inverti la posizione dei pulsanti Indietro e Recenti</string>
     <!-- Navbar -->
-    <string name="navbar_title">Navigation bar</string>
-    <string name="invert_navbar_buttons_title">Invert navigation buttons</string>
+    <string name="navbar_title">Barra di navigazione</string>
+    <string name="invert_navbar_buttons_title">Inverti i tasti di navigazione</string>
     <!-- Status bar tuner-->
     <string name="statusbar_title">Barra di stato</string>
     <string name="statusbar_items_title">Icone</string>
