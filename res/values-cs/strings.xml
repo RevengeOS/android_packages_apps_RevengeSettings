@@ -149,7 +149,7 @@
     <string name="lockscreen_media_blur_title">Media artwork blur level</string>
     <string name="art_work_title">Artwork</string>
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
+    <string name="lockscreen_visualizer_enable">Hudební vizualizér</string>
     <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
     <string name="visualizer_title">Visualizer</string>
     <!-- Ambient edge lighting -->
