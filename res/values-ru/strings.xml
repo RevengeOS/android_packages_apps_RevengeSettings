@@ -18,20 +18,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic strings -->
-    <string name="unknown">Unknown</string>
-    <string name="default_text">Default</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="default_text">По умолчанию</string>
     <!-- Device info strings -->
-    <string name="revengeos_version">RevengeOS version</string>
-    <string name="revengeos_build_id">RevengeOS build ID</string>
+    <string name="revengeos_version">Версия RevengeOS</string>
+    <string name="revengeos_build_id">Номер сборки RevengeOS</string>
     <!-- Button settings -->
-    <string name="buttons_settings_title">Buttons</string>
+    <string name="buttons_settings_title">Кнопки</string>
     <!-- Volume category -->
-    <string name="volume_keys_category">Volume Keys</string>
+    <string name="volume_keys_category">Кнопки громкости</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
+    <string name="volume_rocker_wake_summary">Нажатие кнопок громкости разбудит устройство</string>
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
+    <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
