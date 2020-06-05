@@ -47,16 +47,16 @@
     <string name="battery_light_enable">Povolit</string>
     <string name="battery_light_allow_on_dnd_title">Notifikační dioda baterie v režimu Nerušit</string>
     <string name="battery_light_low_blinking_title">Blikání notifikační diody při nízkém stavu baterie</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
+    <string name="battery_light_cat">Barva notifikační diody při nabíjení</string>
     <string name="battery_light_low_color">Slabá baterie</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
+    <string name="battery_light_medium_color">Polovičně nabitá baterie</string>
+    <string name="battery_light_full_color">Téměř plně nabitá baterie</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
     <!-- Generic stuff used everywhere -->
     <string name="reset">Reset</string>
     <!-- Buttons -->
     <string name="button_pref_title">Tlačítka</string>
-    <string name="hardware_keys_power_key_title">Power button</string>
+    <string name="hardware_keys_power_key_title">Napájecí tlačítko</string>
     <string name="hardware_keys_home_key_title">Tlačítko Domů</string>
     <string name="hardware_keys_back_key_title">Tlačítko zpět</string>
     <string name="hardware_keys_menu_key_title">Menu button</string>
@@ -71,7 +71,7 @@
     <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
     <string name="hardware_keys_action_search">Search assistant</string>
     <string name="hardware_keys_action_voice_search">Hlasové vyhledávání</string>
-    <string name="hardware_keys_action_in_app_search">In-app search</string>
+    <string name="hardware_keys_action_in_app_search">Vyhledávání v aplikaci</string>
     <string name="hardware_keys_action_launch_camera">Spustit fotoaparát</string>
     <string name="hardware_keys_action_sleep">Vypnout obrazovku</string>
     <string name="hardware_keys_action_split_screen">Rozdělená obrazovka</string>
@@ -121,22 +121,22 @@
     <string name="show_network_traffic_all">Uplink and Downlink</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow">Skrýt šipky</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <!-- Power menu -->
     <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_screenshot_title">Snímek obrazovky</string>
+    <string name="power_menu_screenshot_summary">Stiskněte dlouze pro částečný snímek obrazovky</string>
+    <string name="power_menu_airplane_title">Režim v letadle</string>
+    <string name="power_menu_users_title">Přepínání uživatelů</string>
+    <string name="power_menu_bug_report_title">Nahlášení chyb</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-    <string name="power_menu_lockdown_title">Lockdown</string>
+    <string name="power_menu_lockdown_title">Uzamknout</string>
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Rozšířený restart</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
-    <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
+    <string name="advanced_reboot_summary">Pokud odemknuto, v nabídce napájení jsou uvedeny možnosti pro restartování do recovery nebo bootloaderu</string>
+    <string name="torch_long_press_power_gesture_title">Zapnutí svítilny tlačítkem napájení při zhasnuté obrazovce</string>
+    <string name="torch_long_press_power_gesture_desc">Dlouhým stiskem tlačítka napájení při zhasnuté obrazovce zapnete svítilnu</string>
     <string name="torch_long_press_power_timeout_title">Automaticky vypnout svítilnu</string>
     <string name="torch_long_press_power_timeout_never">Nikdy</string>
     <string name="torch_long_press_power_timeout_1min">1 minuta</string>
@@ -166,21 +166,21 @@
     <string name="lockscreen_weather_settings_title">Setup weather options</string>
     <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
     <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_config_summary">Nastavení systémových služeb</string>
+    <string name="header_weather_title">Zobrazit počasí v záhlaví</string>
+    <string name="header_weather_summary">Povolit zobrazení počasí v záhlaví panelu oznámení</string>
+    <string name="weather_icon_pack_title">Balíček ikon stavu počasí</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="weather_icon_pack_info_title">Balíček ikon počasí je používán v rychlém nastavení a na zamykací obrazovce</string>
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_title">Styl počasí</string>
+    <string name="lockscreen_weather_omni_style_title">Omni styl</string>
+    <string name="lockscreen_weather_pixel_style_title">Styl Pixel</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
+    <string name="battery_health_title">Zdraví baterie</string>
     <string name="battery_health_summary">Monitorovat stav baterie vašeho zařízení</string>
     <string name="current_battery_capacity">Aktuální kapacita baterie</string>
     <string name="current_battery_capacity_summary">Aktuální kapacita baterie měřená jádrem</string>
     <string name="designed_battery_capacity">Navržená kapacita baterie</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+    <string name="designed_battery_capacity_summary">Kapacita baterie určená výrobcem</string>
 </resources>
