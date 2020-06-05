@@ -83,104 +83,104 @@
     <string name="button_wake_title">Разбудить устройство</string>
     <string name="camera_sleep_on_release_title">Быстрый просмотр экрана</string>
     <string name="camera_sleep_on_release_summary">Держать экран включенным только при удерживании кнопки</string>
-    <string name="camera_launch_title">Launch camera</string>
-    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="camera_launch_title">Запуск камеры</string>
+    <string name="camera_launch_summary">Длительное нажатие и отпускание запустит камеру</string>
     <!-- Key backlight -->
-    <string name="button_backlight_title">Backlight</string>
-    <string name="button_backlight_enabled">Illuminate buttons</string>
-    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
-    <string name="button_backlight_seekbar_title">Button brightness</string>
-    <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="button_backlight_title">Подсветка</string>
+    <string name="button_backlight_enabled">Подсветка кнопок</string>
+    <string name="button_backlight_only_when_pressed_title">Подсвечивать кнопки только при нажатии</string>
+    <string name="button_backlight_seekbar_title">Яркость кнопок</string>
+    <string name="backlight_timeout_title">Время подсветки</string>
+    <string name="backlight_timeout_unlimited">Не отключать</string>
+    <string name="backlight_summary_disabled">Отключено</string>
+    <string name="backlight_summary_enabled_with_timeout">Включено на <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Включено</string>
     <!-- Buttons - Enable navbar -->
-    <string name="disable_navkeys_title">Enable on-screen nav bar</string>
-    <string name="disable_navkeys_summary">Enable on-screen navigation bar and disable hardware buttons</string>
+    <string name="disable_navkeys_title">Включить панель навигации</string>
+    <string name="disable_navkeys_summary">Включить экранную панель навигации и отключить аппаратные кнопки</string>
     <!-- Swap hw keys -->
-    <string name="swap_navigation_keys_title">Swap hardware buttons</string>
-    <string name="swap_navigation_keys_title_summary">Swap the order of recents and back buttons</string>
+    <string name="swap_navigation_keys_title">Поменять местами аппаратные кнопки</string>
+    <string name="swap_navigation_keys_title_summary">Поменять местами кнопки \"Недавние\" и \"Назад\"</string>
     <!-- Navbar -->
-    <string name="navbar_title">Navigation bar</string>
-    <string name="invert_navbar_buttons_title">Invert navigation buttons</string>
+    <string name="navbar_title">Панель навигации</string>
+    <string name="invert_navbar_buttons_title">Поменять кнопки местами</string>
     <!-- Status bar tuner-->
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_items_title">Icons</string>
-    <string name="status_bar_items_summary">Add or remove status bar icons</string>
+    <string name="statusbar_title">Строка состояния</string>
+    <string name="statusbar_items_title">Иконки</string>
+    <string name="status_bar_items_summary">Добавить или удалить значки строки состояния</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
+    <string name="display_cutout_force_fullscreen_summary">Принуждать приложения игнорировать экранный вырез</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_title_summary">Customize network traffic indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="traffic_title">Индикаторы трафика</string>
+    <string name="traffic_title_summary">Настроить индикаторы сетевого трафика</string>
+    <string name="network_traffic_title">Сетевой трафик</string>
+    <string name="network_traffic_type">Выберите тип сетевой активности</string>
+    <string name="show_network_traffic_up">Загрузка</string>
+    <string name="show_network_traffic_down">Скачивание</string>
+    <string name="show_network_traffic_all">Загрузка и скачивание</string>
+    <string name="network_traffic_state_title">Показывать сетевую активность в строке состояния</string>
+    <string name="network_traffic_autohide_threshold_title">Порог автоскрытия сетевой активности (КБ/с)</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
     <!-- Power menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-    <string name="power_menu_lockdown_title">Lockdown</string>
+    <string name="power_menu_title">Меню кнопки питания</string>
+    <string name="power_menu_screenshot_title">Снимок экрана</string>
+    <string name="power_menu_screenshot_summary">Долгое нажатие для снимка области экрана</string>
+    <string name="power_menu_airplane_title">Режим полета</string>
+    <string name="power_menu_users_title">Переключатель пользователей</string>
+    <string name="power_menu_bug_report_title">Отчет об ошибке</string>
+    <string name="power_menu_bug_report_disabled">Отчеты об ошибках отключены в настройках для разработчиков</string>
+    <string name="power_menu_lockdown_title">Блокировка</string>
     <!-- Advanced restart options -->
-    <string name="advanced_reboot_title">Advanced restart</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
-    <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="advanced_reboot_title">Расширенная перезагрузка</string>
+    <string name="advanced_reboot_summary">Показывать в меню питания опции для перезагрузки в рекавери или загрузчик, когда устройство разблокировано</string>
+    <string name="torch_long_press_power_gesture_title">Быстрое включение фонарика</string>
+    <string name="torch_long_press_power_gesture_desc">Если устройство в спящем режиме, удержание кнопки питания включит фонарик</string>
+    <string name="torch_long_press_power_timeout_title">Автоматическое отключение фонарика</string>
+    <string name="torch_long_press_power_timeout_never">Никогда</string>
+    <string name="torch_long_press_power_timeout_1min">1 минута</string>
+    <string name="torch_long_press_power_timeout_2min">2 минуты</string>
+    <string name="torch_long_press_power_timeout_5min">5 минут</string>
+    <string name="torch_long_press_power_timeout_10min">10 минут</string>
     <!-- Media art -->
-    <string name="media_art_title">Media artwork</string>
-    <string name="media_art_summary">Show media cover art as the lockscreen background</string>
-    <string name="lockscreen_media_blur_title">Media artwork blur level</string>
-    <string name="art_work_title">Artwork</string>
+    <string name="media_art_title">Обложка мультимедиа</string>
+    <string name="media_art_summary">Показывать обложку мультимедиа как фон экрана блокировки</string>
+    <string name="lockscreen_media_blur_title">Уровень размытия обложки</string>
+    <string name="art_work_title">Обложка</string>
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
-    <string name="visualizer_title">Visualizer</string>
+    <string name="lockscreen_visualizer_enable">Визуализация музыки</string>
+    <string name="lockscreen_visualizer_enable_summary">Показывать полосы визуализации во время воспроизведения музыки</string>
+    <string name="visualizer_title">Визуализатор</string>
     <!-- Ambient edge lighting -->
-    <string name="ambient_light_settings_title">Ambient light</string>
-    <string name="pulse_ambient_light_title">Edge lighting</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="pulse_ambient_light_color_title">Edge light color</string>
+    <string name="ambient_light_settings_title">Подсветка экрана при уведомлениях</string>
+    <string name="pulse_ambient_light_title">Подсвечивать края</string>
+    <string name="pulse_ambient_light_summary">Подсвечивать края экрана при получении уведомлений</string>
+    <string name="pulse_ambient_light_color_title">Цвет подсветки</string>
     <!-- Weather -->
-    <string name="weather_title">Weather</string>
+    <string name="weather_title">Погода</string>
     <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="lockscreen_weather_category">Погода</string>
+    <string name="lockscreen_weather_enabled_title">Показывать на экране блокировки</string>
+    <string name="lockscreen_weather_enabled_summary">Показывать информацию о погоде на экране блокировки и Ambient Display</string>
+    <string name="lockscreen_weather_settings_title">Расширенные настройки погоды</string>
+    <string name="lockscreen_weather_settings_summary">Выбрать набор иконок и поставщика информации о погоде</string>
+    <string name="weather_config_title">Поставщик информации о погоде</string>
+    <string name="weather_config_summary">Настройки системной службы</string>
+    <string name="header_weather_title">Показывать в панели уведомлений</string>
+    <string name="header_weather_summary">Включить отображение погоды в заголовке панели уведомлений</string>
+    <string name="weather_icon_pack_title">Набор иконок погоды</string>
+    <string name="weather_icon_pack_note">Примечание\u003a вы можете установить новые наборы иконок, набрав в поиске Google Play \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Набор иконок погоды используется в быстрых настройках и экране блокировки</string>
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_title">Стиль отображения погоды</string>
+    <string name="lockscreen_weather_omni_style_title">Стиль Omni</string>
+    <string name="lockscreen_weather_pixel_style_title">Стиль Pixel</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+    <string name="battery_health_title">Здоровье батареи</string>
+    <string name="battery_health_summary">Мониторинг состояния батареи устройства</string>
+    <string name="current_battery_capacity">Текущая емкость</string>
+    <string name="current_battery_capacity_summary">Текущая емкость батареи, измеренная ядром</string>
+    <string name="designed_battery_capacity">Заявленная емкость</string>
+    <string name="designed_battery_capacity_summary">Заявленная производителем емкость батареи</string>
 </resources>
