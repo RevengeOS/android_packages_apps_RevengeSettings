@@ -59,7 +59,7 @@
     <string name="hardware_keys_power_key_title">Napájecí tlačítko</string>
     <string name="hardware_keys_home_key_title">Tlačítko Domů</string>
     <string name="hardware_keys_back_key_title">Tlačítko zpět</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
+    <string name="hardware_keys_menu_key_title">Tlačítko Menu</string>
     <string name="hardware_keys_assist_key_title">Search button</string>
     <string name="hardware_keys_appswitch_key_title">Tlačítko nedávných aplikací</string>
     <string name="hardware_keys_camera_key_title">Tlačítko fotoaparátu</string>
@@ -79,7 +79,7 @@
     <string name="hardware_keys_swipe_left_key_title">Swipe left</string>
     <string name="hardware_keys_long_tap_key_title">Long tap</string>
     <string name="hardware_keys_swipe_tap_title">Swipe action</string>
-    <string name="hardware_keys_long_tap_title">Long tap action</string>
+    <string name="hardware_keys_long_tap_title">Akce dlouhým stisku</string>
     <string name="button_wake_title">Probudit zařízení</string>
     <string name="camera_sleep_on_release_title">Náhled obrazovky</string>
     <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
@@ -91,7 +91,7 @@
     <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
     <string name="button_backlight_seekbar_title">Jas podsvícení tlačítek</string>
     <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
+    <string name="backlight_timeout_unlimited">Nevypínat</string>
     <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Zapnuto</string>
@@ -146,31 +146,31 @@
     <!-- Media art -->
     <string name="media_art_title">Obal alba</string>
     <string name="media_art_summary">Show media cover art as the lockscreen background</string>
-    <string name="lockscreen_media_blur_title">Media artwork blur level</string>
-    <string name="art_work_title">Artwork</string>
+    <string name="lockscreen_media_blur_title">Úroveň rozostření obalu alba</string>
+    <string name="art_work_title">Obal alba</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_enable">Hudební vizualizér</string>
     <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
-    <string name="visualizer_title">Visualizer</string>
+    <string name="visualizer_title">Vizualizér</string>
     <!-- Ambient edge lighting -->
     <string name="ambient_light_settings_title">Ambient light</string>
     <string name="pulse_ambient_light_title">Edge lighting</string>
     <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
     <string name="pulse_ambient_light_color_title">Edge light color</string>
     <!-- Weather -->
-    <string name="weather_title">Weather</string>
+    <string name="weather_title">Počasí</string>
     <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
+    <string name="lockscreen_weather_category">Počasí</string>
+    <string name="lockscreen_weather_enabled_title">Zobrazit na zamykací obrazovce</string>
     <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
     <string name="lockscreen_weather_settings_title">Setup weather options</string>
     <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_title">Služby počasí</string>
     <string name="weather_config_summary">Nastavení systémových služeb</string>
     <string name="header_weather_title">Zobrazit počasí v záhlaví</string>
     <string name="header_weather_summary">Povolit zobrazení počasí v záhlaví panelu oznámení</string>
     <string name="weather_icon_pack_title">Balíček ikon stavu počasí</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_note">Poznámka\u003a nové balíčky ikon můžete nainstalovat z Obchodu Play vyhledáním \"Chronus icons\"</string>
     <string name="weather_icon_pack_info_title">Balíček ikon počasí je používán v rychlém nastavení a na zamykací obrazovce</string>
     <!-- Lockscreen weather style -->
     <string name="lockscreen_weather_style_title">Styl počasí</string>
