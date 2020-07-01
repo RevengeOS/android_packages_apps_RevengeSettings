@@ -77,65 +77,65 @@
     <string name="hardware_keys_action_split_screen">Dividir pantalla</string>
     <string name="hardware_keys_swipe_right_key_title">Deslizar a la derecha</string>
     <string name="hardware_keys_swipe_left_key_title">Deslizar a la izquierda</string>
-    <string name="hardware_keys_long_tap_key_title">Long tap</string>
-    <string name="hardware_keys_swipe_tap_title">Swipe action</string>
-    <string name="hardware_keys_long_tap_title">Long tap action</string>
-    <string name="button_wake_title">Wake device</string>
+    <string name="hardware_keys_long_tap_key_title">Pulsación larga</string>
+    <string name="hardware_keys_swipe_tap_title">Acción de deslizamiento</string>
+    <string name="hardware_keys_long_tap_title">Acción de pulsación larga</string>
+    <string name="button_wake_title">Despertar dispositivo</string>
     <string name="camera_sleep_on_release_title">Screen peek</string>
-    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
-    <string name="camera_launch_title">Launch camera</string>
-    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="camera_sleep_on_release_summary">Media pulsación mantendrá la pantalla encendida sólo mientras se mantenga presionado el botón</string>
+    <string name="camera_launch_title">Abrir cámara</string>
+    <string name="camera_launch_summary">Una pulsación larga y soltar el botón lanzará la cámara</string>
     <!-- Key backlight -->
-    <string name="button_backlight_title">Backlight</string>
-    <string name="button_backlight_enabled">Illuminate buttons</string>
-    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
-    <string name="button_backlight_seekbar_title">Button brightness</string>
-    <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="button_backlight_title">Luz de fondo</string>
+    <string name="button_backlight_enabled">Iluminar botones</string>
+    <string name="button_backlight_only_when_pressed_title">Iluminar botones sólo cuando se presiona</string>
+    <string name="button_backlight_seekbar_title">Brillo del botón</string>
+    <string name="backlight_timeout_title">Tiempo de espera de iluminación</string>
+    <string name="backlight_timeout_unlimited">No apagar</string>
+    <string name="backlight_summary_disabled">Deshabilitado</string>
+    <string name="backlight_summary_enabled_with_timeout">Habilitado para <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Activado</string>
     <!-- Buttons - Enable navbar -->
-    <string name="disable_navkeys_title">Enable on-screen nav bar</string>
-    <string name="disable_navkeys_summary">Enable on-screen navigation bar and disable hardware buttons</string>
+    <string name="disable_navkeys_title">Activar barra de navegación en pantalla</string>
+    <string name="disable_navkeys_summary">Activar la barra de navegación en pantalla y desactivar los botones físicos</string>
     <!-- Swap hw keys -->
-    <string name="swap_navigation_keys_title">Swap hardware buttons</string>
-    <string name="swap_navigation_keys_title_summary">Swap the order of recents and back buttons</string>
+    <string name="swap_navigation_keys_title">Intercambiar botones de hardware</string>
+    <string name="swap_navigation_keys_title_summary">Cambiar el orden de los botones de reciente y atrás</string>
     <!-- Navbar -->
-    <string name="navbar_title">Navigation bar</string>
-    <string name="invert_navbar_buttons_title">Invert navigation buttons</string>
+    <string name="navbar_title">Barra de navegación</string>
+    <string name="invert_navbar_buttons_title">Invertir botones de navegación</string>
     <!-- Status bar tuner-->
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_items_title">Icons</string>
-    <string name="status_bar_items_summary">Add or remove status bar icons</string>
+    <string name="statusbar_title">Barra de estado</string>
+    <string name="statusbar_items_title">Iconos</string>
+    <string name="status_bar_items_summary">Añadir o eliminar iconos de la barra de estado</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones de pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Obligar a las aplicaciones a ignorar el espacio del notch</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_title_summary">Customize network traffic indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="traffic_title">Indicadores de tráfico</string>
+    <string name="traffic_title_summary">Personalizar indicadores de tráfico de red</string>
+    <string name="network_traffic_title">Tráfico de red</string>
+    <string name="network_traffic_type">Seleccione el tipo de actividad de red</string>
+    <string name="show_network_traffic_up">Subida</string>
+    <string name="show_network_traffic_down">Bajada</string>
+    <string name="show_network_traffic_all">Subida y bajada</string>
+    <string name="network_traffic_state_title">Mostrar actividad de red en la barra de estado</string>
+    <string name="network_traffic_autohide_threshold_title">Umbral de autoocultación de actividad de red (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ocultar flechas</string>
+    <string name="network_traffic_hidearrow_summary">Ocultar las flechas del indicador de tráfico de red</string>
     <!-- Power menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-    <string name="power_menu_lockdown_title">Lockdown</string>
+    <string name="power_menu_title">Menú de apagado</string>
+    <string name="power_menu_screenshot_title">Captura de pantalla</string>
+    <string name="power_menu_screenshot_summary">Pulsación larga para captura de pantalla parcial</string>
+    <string name="power_menu_airplane_title">Modo avión</string>
+    <string name="power_menu_users_title">Interruptor de usuario</string>
+    <string name="power_menu_bug_report_title">Informe de error</string>
+    <string name="power_menu_bug_report_disabled">El reporte de errores está desactivado en la configuración de desarrollo</string>
+    <string name="power_menu_lockdown_title">Bloqueo</string>
     <!-- Advanced restart options -->
-    <string name="advanced_reboot_title">Advanced restart</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
+    <string name="advanced_reboot_title">Reinicio avanzado</string>
+    <string name="advanced_reboot_summary">Cuando se desbloquea, incluir opciones en el menú de apagado para reiniciar en el recovery o el bootloader</string>
+    <string name="torch_long_press_power_gesture_title">Linterna del botón de apagado</string>
     <string name="torch_long_press_power_gesture_desc">Mantenga pulsado el botón de encendido mientras la pantalla esté apagada para encender la linterna</string>
     <string name="torch_long_press_power_timeout_title">Apagar la linterna automáticamente</string>
     <string name="torch_long_press_power_timeout_never">Nunca</string>
@@ -175,12 +175,12 @@
     <!-- Lockscreen weather style -->
     <string name="lockscreen_weather_style_title">Estilo del clima</string>
     <string name="lockscreen_weather_omni_style_title">Estilo Omni</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_pixel_style_title">Estilo Pixel</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+    <string name="battery_health_title">Salud de la batería</string>
+    <string name="battery_health_summary">Controlar la salud de la batería de su dispositivo</string>
+    <string name="current_battery_capacity">Capacidad actual de la batería</string>
+    <string name="current_battery_capacity_summary">La capacidad actual de la batería medida por el núcleo</string>
+    <string name="designed_battery_capacity">Capacidad de la batería diseñada</string>
+    <string name="designed_battery_capacity_summary">La capacidad de la batería diseñada por el fabricante</string>
 </resources>
