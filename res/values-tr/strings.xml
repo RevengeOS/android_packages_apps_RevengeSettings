@@ -28,13 +28,13 @@
     <!-- Volume category -->
     <string name="volume_keys_category">Ses seviyesi tuşları</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Volume rocker uyandırma</string>
+    <string name="volume_rocker_wake_summary">Ses seviyesi tuşlarına basmak cihazınızı uyandırır</string>
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">Oynatma kontrolü</string>
+    <string name="volume_rocker_music_controls_summary">Ekran kapalıyken, ses seviyesi tuşlarına uzun basıldığında müzik parçaları aranır</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
+    <string name="dialog_color_picker">Renk seçici</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
