@@ -81,7 +81,7 @@
     <string name="hardware_keys_swipe_tap_title">Acción de deslizamiento</string>
     <string name="hardware_keys_long_tap_title">Acción de pulsación larga</string>
     <string name="button_wake_title">Despertar dispositivo</string>
-    <string name="camera_sleep_on_release_title">Screen peek</string>
+    <string name="camera_sleep_on_release_title">Vistazo a la pantalla</string>
     <string name="camera_sleep_on_release_summary">Media pulsación mantendrá la pantalla encendida sólo mientras se mantenga presionado el botón</string>
     <string name="camera_launch_title">Abrir cámara</string>
     <string name="camera_launch_summary">Una pulsación larga y soltar el botón lanzará la cámara</string>
