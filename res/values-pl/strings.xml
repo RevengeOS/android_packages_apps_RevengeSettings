@@ -102,8 +102,8 @@
     <string name="swap_navigation_keys_title">Zamień przyciski sprzętowe</string>
     <string name="swap_navigation_keys_title_summary">Zamień kolejność przycisków ostatnich aplikacji i wstecz</string>
     <!-- Navbar -->
-    <string name="navbar_title">Navigation bar</string>
-    <string name="invert_navbar_buttons_title">Invert navigation buttons</string>
+    <string name="navbar_title">Pasek nawigacyjny</string>
+    <string name="invert_navbar_buttons_title">Odwrócone przyciski nawigacyjne</string>
     <!-- Status bar tuner-->
     <string name="statusbar_title">Pasek stanu</string>
     <string name="statusbar_items_title">Ikony</string>
