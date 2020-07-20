@@ -41,7 +41,7 @@
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="color_default">Varsayılan</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
     <string name="battery_light_enable">Enable</string>
