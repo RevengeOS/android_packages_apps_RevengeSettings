@@ -18,23 +18,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic strings -->
-    <string name="unknown">Unknown</string>
-    <string name="default_text">Default</string>
+    <string name="unknown">Không xác định</string>
+    <string name="default_text">Mặc định</string>
     <!-- Device info strings -->
-    <string name="revengeos_version">RevengeOS version</string>
-    <string name="revengeos_build_id">RevengeOS build ID</string>
+    <string name="revengeos_version">Phiên bản RevengeOS</string>
+    <string name="revengeos_build_id">ID bản dựng RevengeOS</string>
     <!-- Button settings -->
-    <string name="buttons_settings_title">Buttons</string>
+    <string name="buttons_settings_title">Nút</string>
     <!-- Volume category -->
-    <string name="volume_keys_category">Volume Keys</string>
+    <string name="volume_keys_category">Phím âm lượng</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Đánh thức nút chỉnh âm lượng</string>
+    <string name="volume_rocker_wake_summary">Nhấn các phím âm lượng sẽ đánh thức thiết bị của bạn</string>
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">Điều khiển phát lại</string>
+    <string name="volume_rocker_music_controls_summary">Khi màn hình tắt, nhấn và giữ các phím âm lượng sẽ tìm kiếm các bản nhạc</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
+    <string name="dialog_color_picker">Bộ chọn màu</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
