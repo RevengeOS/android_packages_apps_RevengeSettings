@@ -29,28 +29,28 @@
     <string name="volume_keys_category">ボリュームキー</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">ボリュームキーでスリープ解除</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_summary">ボリュームキーを押すとスリープ解除されます</string>
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">再生コントロール</string>
+    <string name="volume_rocker_music_controls_summary">画面消灯時にボリュームキーを長押しすると曲をシークします</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">色の選択</string>
+    <string name="press_color_to_apply">適用するには色をタップしてください</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">16進数:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">セット</string>
+    <string name="color_default">デフォルト</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_enable">Enable</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
+    <string name="battery_light_settings">バッテリー充電中のライト</string>
+    <string name="battery_light_enable">有効</string>
+    <string name="battery_light_allow_on_dnd_title">マナーモード中のバッテリーライト</string>
+    <string name="battery_light_low_blinking_title">低バッテリー時にライトを点滅させる</string>
+    <string name="battery_light_cat">充電中のバッテリーライトの色</string>
+    <string name="battery_light_low_color">電池残量低下時</string>
+    <string name="battery_light_medium_color">中バッテリー残量時</string>
+    <string name="battery_light_full_color">充電完了付近時</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
     <!-- Generic stuff used everywhere -->
     <string name="reset">Reset</string>
