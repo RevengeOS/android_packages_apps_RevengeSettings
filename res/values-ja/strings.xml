@@ -18,17 +18,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic strings -->
-    <string name="unknown">Unknown</string>
-    <string name="default_text">Default</string>
+    <string name="unknown">不明</string>
+    <string name="default_text">デフォルト</string>
     <!-- Device info strings -->
-    <string name="revengeos_version">RevengeOS version</string>
-    <string name="revengeos_build_id">RevengeOS build ID</string>
+    <string name="revengeos_version">RevengeOS バージョン</string>
+    <string name="revengeos_build_id">RevengeOS ビルドID</string>
     <!-- Button settings -->
-    <string name="buttons_settings_title">Buttons</string>
+    <string name="buttons_settings_title">ボタン</string>
     <!-- Volume category -->
-    <string name="volume_keys_category">Volume Keys</string>
+    <string name="volume_keys_category">ボリュームキー</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_title">ボリュームキーでスリープ解除</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Playback control</string>
@@ -38,7 +38,7 @@
     <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">16進数:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
