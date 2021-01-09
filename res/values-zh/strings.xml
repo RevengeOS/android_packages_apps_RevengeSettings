@@ -18,166 +18,195 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic strings -->
-    <string name="unknown">Unknown</string>
-    <string name="default_text">Default</string>
+    <string name="unknown">未知</string>
+    <string name="default_text">默认</string>
+
     <!-- Device info strings -->
-    <string name="revengeos_version">RevengeOS version</string>
-    <string name="revengeos_build_id">RevengeOS build ID</string>
+    <string name="revengeos_version">RevengeOS 版本</string>
+    <string name="revengeos_build_id">RevengeOS 构建ID</string>
+
     <!-- Button settings -->
-    <string name="buttons_settings_title">Buttons</string>
+    <string name="buttons_settings_title">按钮</string>
+
     <!-- Volume category -->
-    <string name="volume_keys_category">Volume Keys</string>
+    <string name="volume_keys_category">音量键</string>
+
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">音量键唤醒</string>
+    <string name="volume_rocker_wake_summary">按下音量键将唤醒您的设备</string>
+
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">播放控制</string>
+    <string name="volume_rocker_music_controls_summary">屏幕关闭时，长按音量键将查找音乐曲目</string>
+
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">颜色选择器</string>
+    <string name="press_color_to_apply">按以下颜色确认</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">十六进制:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">set</string>
+    <string name="color_default">默认</string>
+
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_enable">Enable</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_settings">电池充电灯</string>
+    <string name="battery_light_enable">启用</string>
+    <string name="battery_light_allow_on_dnd_title">请勿打扰模式下的电池指示灯</string>
+    <string name="battery_light_low_blinking_title">电池电量不足时指示灯闪烁</string>
+    <string name="battery_light_cat">充电时电池指示灯颜色</string>
+    <string name="battery_light_low_color">低电量</string>
+    <string name="battery_light_medium_color">中等电量</string>
+    <string name="battery_light_full_color">电量快满了</string>
+    <string name="battery_light_reallyfull_color">已充满（100）电量</string>
+
     <!-- Generic stuff used everywhere -->
-    <string name="reset">Reset</string>
+    <string name="reset">重启</string>
+
     <!-- Buttons -->
-    <string name="button_pref_title">Buttons</string>
-    <string name="hardware_keys_power_key_title">Power button</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
-    <string name="hardware_keys_appswitch_key_title">Recents button</string>
-    <string name="hardware_keys_camera_key_title">Camera button</string>
-    <string name="hardware_keys_short_press_title">Short press action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys_action_nothing">No action</string>
-    <string name="hardware_keys_action_menu">Open/close menu</string>
-    <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
-    <string name="hardware_keys_action_search">Search assistant</string>
-    <string name="hardware_keys_action_voice_search">Voice search</string>
-    <string name="hardware_keys_action_in_app_search">In-app search</string>
-    <string name="hardware_keys_action_launch_camera">Launch camera</string>
-    <string name="hardware_keys_action_sleep">Turn screen off</string>
-    <string name="hardware_keys_action_split_screen">Split screen</string>
-    <string name="hardware_keys_swipe_right_key_title">Swipe right</string>
-    <string name="hardware_keys_swipe_left_key_title">Swipe left</string>
-    <string name="hardware_keys_long_tap_key_title">Long tap</string>
-    <string name="hardware_keys_swipe_tap_title">Swipe action</string>
-    <string name="hardware_keys_long_tap_title">Long tap action</string>
-    <string name="button_wake_title">Wake device</string>
-    <string name="camera_sleep_on_release_title">Screen peek</string>
-    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
-    <string name="camera_launch_title">Launch camera</string>
-    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="button_pref_title">按钮</string>
+    <string name="hardware_keys_power_key_title">电源按钮</string>
+    <string name="hardware_keys_home_key_title">主页键</string>
+    <string name="hardware_keys_back_key_title">返回键</string>
+    <string name="hardware_keys_menu_key_title">菜单键</string>
+    <string name="hardware_keys_assist_key_title">搜索键</string>
+    <string name="hardware_keys_appswitch_key_title">最近键</string>
+    <string name="hardware_keys_camera_key_title">相机键</string>
+    <string name="hardware_keys_short_press_title">短按动作</string>
+    <string name="hardware_keys_long_press_title">长按动作</string>
+    <string name="hardware_keys_double_tap_title">双击动作</string>
+    <string name="hardware_keys_action_nothing">无动作</string>
+    <string name="hardware_keys_action_menu">打开/关闭菜单</string>
+    <string name="hardware_keys_action_app_switch">最近使用的应用切换器</string>
+    <string name="hardware_keys_action_search">搜索助理</string>
+    <string name="hardware_keys_action_voice_search">语音搜索</string>
+    <string name="hardware_keys_action_in_app_search">应用内搜索</string>
+    <string name="hardware_keys_action_launch_camera">启动摄像头</string>
+    <string name="hardware_keys_action_sleep">关闭屏幕</string>
+    <string name="hardware_keys_action_split_screen">分屏</string>
+    <string name="hardware_keys_swipe_right_key_title">向右滑动</string>
+    <string name="hardware_keys_swipe_left_key_title">向左滑动</string>
+    <string name="hardware_keys_long_tap_key_title">长按</string>
+    <string name="hardware_keys_swipe_tap_title">滑动动作</string>
+    <string name="hardware_keys_long_tap_title">长按动作</string>
+    <string name="button_wake_title">唤醒装置</string>
+    <string name="camera_sleep_on_release_title">屏幕窥视</string>
+    <string name="camera_sleep_on_release_summary">只有当按下按钮时，半按将保持屏幕在屏幕上</string>
+    <string name="camera_launch_title">启动摄像头</string>
+    <string name="camera_launch_summary">长按和发布将推出相机</string>
+
     <!-- Key backlight -->
-    <string name="button_backlight_title">Backlight</string>
-    <string name="button_backlight_enabled">Illuminate buttons</string>
-    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
-    <string name="button_backlight_seekbar_title">Button brightness</string>
-    <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="button_backlight_title">背光</string>
+    <string name="button_backlight_enabled">背光按钮</string>
+    <string name="button_backlight_only_when_pressed_title">按下按钮时才亮</string>
+    <string name="button_backlight_seekbar_title">按钮的亮度</string>
+    <string name="backlight_timeout_title">背光超时</string>
+    <string name="backlight_timeout_unlimited">不要关掉</string>
+    <string name="backlight_summary_disabled">禁用</string>
+    <string name="backlight_summary_enabled_with_timeout">已启用 <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">启用</string>
+
     <!-- Buttons - Enable navbar -->
-    <string name="disable_navkeys_title">Enable on-screen nav bar</string>
-    <string name="disable_navkeys_summary">Enable on-screen navigation bar and disable hardware buttons</string>
+    <string name="disable_navkeys_title">启用屏幕上的导航栏</string>
+    <string name="disable_navkeys_summary">启用屏幕导航栏和禁用硬件按钮</string>
+
     <!-- Swap hw keys -->
-    <string name="swap_navigation_keys_title">Swap hardware buttons</string>
-    <string name="swap_navigation_keys_title_summary">Swap the order of recents and back buttons</string>
+    <string name="swap_navigation_keys_title">交换硬件按钮</string>
+    <string name="swap_navigation_keys_title_summary">交换“最近”和“后退”按钮的顺序</string>
+
+    <!-- Navbar -->
+    <string name="navbar_title">导航栏</string>
+    <string name="invert_navbar_buttons_title">反转导航按钮</string>
+
     <!-- Status bar tuner-->
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_items_title">Icons</string>
-    <string name="status_bar_items_summary">Add or remove status bar icons</string>
+    <string name="statusbar_title">状态栏</string>
+    <string name="statusbar_items_title">图标</string>
+    <string name="status_bar_items_summary">添加或删除状态栏图标</string>
+
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">全屏应用程序</string>
+    <string name="display_cutout_force_fullscreen_summary">强制应用忽略缺口空间</string>
+
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_title_summary">Customize network traffic indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="traffic_title">流量指标</string>
+    <string name="traffic_title_summary">定制网络流量指标</string>
+    <string name="network_traffic_title">网络流量</string>
+    <string name="network_traffic_type">选择净活动类型</string>
+    <string name="show_network_traffic_up">上行</string>
+    <string name="show_network_traffic_down">下行</string>
+    <string name="show_network_traffic_all">上行和下行</string>
+    <string name="network_traffic_state_title">在状态栏显示网络活动</string>
+    <string name="network_traffic_autohide_threshold_title">净活动自动隐藏阈值(KB/s)</string>
+    <string name="network_traffic_hidearrow">隐藏箭头</string>
+    <string name="network_traffic_hidearrow_summary">隐藏网络流量指示器箭头</string>
+
     <!-- Power menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-    <string name="power_menu_lockdown_title">Lockdown</string>
+    <string name="power_menu_title">电源菜单</string>
+    <string name="power_menu_screenshot_title">截图</string>
+    <string name="power_menu_screenshot_summary">长按部分截图</string>
+    <string name="power_menu_airplane_title">飞行模式</string>
+    <string name="power_menu_users_title">用户切换器</string>
+    <string name="power_menu_bug_report_title">错误报告</string>
+    <string name="power_menu_bug_report_disabled">在开发设置中禁用了错误报告</string>
+    <string name="power_menu_lockdown_title">封锁</string>
+
     <!-- Advanced restart options -->
-    <string name="advanced_reboot_title">Advanced restart</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
-    <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="advanced_reboot_title">高级重启</string>
+    <string name="advanced_reboot_summary">解锁后，在电源菜单中包含用于重新启动到恢复或引导加载程序的选项</string>
+
+    <string name="torch_long_press_power_gesture_title">屏幕关闭电源按钮炬</string>
+    <string name="torch_long_press_power_gesture_desc">屏幕关闭时长按电源按钮可打开手电筒</string>
+    <string name="torch_long_press_power_timeout_title">自动关闭割炬</string>
+    <string name="torch_long_press_power_timeout_never">决不</string>
+    <string name="torch_long_press_power_timeout_1min">1 分钟</string>
+    <string name="torch_long_press_power_timeout_2min">2 分钟</string>
+    <string name="torch_long_press_power_timeout_5min">5 分钟</string>
+    <string name="torch_long_press_power_timeout_10min">10 分钟</string>
+
     <!-- Media art -->
-    <string name="media_art_title">Media artwork</string>
-    <string name="media_art_summary">Show media cover art as the lockscreen background</string>
-    <string name="lockscreen_media_blur_title">Media artwork blur level</string>
-    <string name="art_work_title">Artwork</string>
+    <string name="media_art_title">媒体封面</string>
+    <string name="media_art_summary">将媒体封面显示为锁屏背景</string>
+    <string name="lockscreen_media_blur_title">媒体封面模糊度</string>
+    <string name="art_work_title">专辑</string>
+
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
-    <string name="visualizer_title">Visualizer</string>
+    <string name="lockscreen_visualizer_enable">音乐可视化器</string>
+    <string name="lockscreen_visualizer_enable_summary">在播放音乐时显示可视化工具栏</string>
+    <string name="visualizer_title">可视化器</string>
+
     <!-- Ambient edge lighting -->
-    <string name="ambient_light_settings_title">Ambient light</string>
-    <string name="pulse_ambient_light_title">Edge lighting</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="pulse_ambient_light_color_title">Edge light color</string>
+    <string name="ambient_light_settings_title">环境光</string>
+    <string name="pulse_ambient_light_title">边缘照明</string>
+    <string name="pulse_ambient_light_summary">在通知脉冲上点亮屏幕的侧边缘</string>
+    <string name="pulse_ambient_light_color_title">边缘光色</string>
+
     <!-- Weather -->
-    <string name="weather_title">Weather</string>
+    <string name="weather_title">天气</string>
+
     <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="lockscreen_weather_category">天气</string>
+    <string name="lockscreen_weather_enabled_title">在锁屏上显示</string>
+    <string name="lockscreen_weather_enabled_summary">在锁定屏幕上和打吨睡期间显示天气信息</string>
+    <string name="lockscreen_weather_settings_title">设置天气选项</string>
+    <string name="lockscreen_weather_settings_summary">设置图标包和天气服务</string>
+    <string name="weather_config_title">天气服务</string>
+    <string name="weather_config_summary">系统服务设置</string>
+    <string name="header_weather_title">标头视图天气</string>
+    <string name="header_weather_summary">启用通知面板标题天气显示</string>
+    <string name="weather_icon_pack_title">条件图标包</string>
+    <string name="weather_icon_pack_note">注意\u003a，您可以通过搜索\“Chronus icons\”从Play商店安装新的图标包。</string>
+    <string name="weather_icon_pack_info_title">条件图标包用于快速设置和锁定屏幕</string>
+
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_title">天气风格</string>
+    <string name="lockscreen_weather_omni_style_title">Omni 风格</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel 风格</string>
+
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+    <string name="battery_health_title">电池健康</string>
+    <string name="battery_health_summary">监控设备的电池运行状况</string>
+    <string name="current_battery_capacity">当前电池容量</string>
+    <string name="current_battery_capacity_summary">内核测量的当前电池容量</string>
+    <string name="designed_battery_capacity">设计电池容量</string>
+    <string name="designed_battery_capacity_summary">电池容量由制造商设计</string>
 </resources>
