@@ -18,10 +18,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic strings -->
-    <string name="unknown">Unknown</string>
-    <string name="default_text">Default</string>
+    <string name="unknown">Непознато</string>
+    <string name="default_text">Подразумевано</string>
     <!-- Device info strings -->
-    <string name="revengeos_version">RevengeOS version</string>
+    <string name="revengeos_version">Верзија RevengeOS</string>
     <string name="revengeos_build_id">RevengeOS build ID</string>
     <!-- Button settings -->
     <string name="buttons_settings_title">Buttons</string>
