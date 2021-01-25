@@ -77,65 +77,65 @@
     <string name="hardware_keys_action_split_screen">Подели екран</string>
     <string name="hardware_keys_swipe_right_key_title">Превуци десно</string>
     <string name="hardware_keys_swipe_left_key_title">Превуци лево</string>
-    <string name="hardware_keys_long_tap_key_title">Long tap</string>
-    <string name="hardware_keys_swipe_tap_title">Swipe action</string>
-    <string name="hardware_keys_long_tap_title">Long tap action</string>
-    <string name="button_wake_title">Wake device</string>
-    <string name="camera_sleep_on_release_title">Screen peek</string>
-    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
-    <string name="camera_launch_title">Launch camera</string>
-    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="hardware_keys_long_tap_key_title">Дуги притисак</string>
+    <string name="hardware_keys_swipe_tap_title">Акција превлачења</string>
+    <string name="hardware_keys_long_tap_title">Акција дугог притиска</string>
+    <string name="button_wake_title">Пробуди уређај</string>
+    <string name="camera_sleep_on_release_title">Осмотри екран</string>
+    <string name="camera_sleep_on_release_summary">Полу-притисак ће задржати екран упаљеним док је дугме притиснуто</string>
+    <string name="camera_launch_title">Упали камеру</string>
+    <string name="camera_launch_summary">Дуги притисак и пуштање ће упалити камеру</string>
     <!-- Key backlight -->
-    <string name="button_backlight_title">Backlight</string>
-    <string name="button_backlight_enabled">Illuminate buttons</string>
-    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
-    <string name="button_backlight_seekbar_title">Button brightness</string>
-    <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="button_backlight_title">Позадинско осветљење</string>
+    <string name="button_backlight_enabled">Осветли дугмад</string>
+    <string name="button_backlight_only_when_pressed_title">Осветли дугмад само кад су притиснута</string>
+    <string name="button_backlight_seekbar_title">Осветљење дугмади</string>
+    <string name="backlight_timeout_title">Тајм-аут освељења</string>
+    <string name="backlight_timeout_unlimited">Не гаси</string>
+    <string name="backlight_summary_disabled">Онемогућено</string>
+    <string name="backlight_summary_enabled_with_timeout">Омогућено за <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Активирано</string>
     <!-- Buttons - Enable navbar -->
-    <string name="disable_navkeys_title">Enable on-screen nav bar</string>
-    <string name="disable_navkeys_summary">Enable on-screen navigation bar and disable hardware buttons</string>
+    <string name="disable_navkeys_title">Активирај навигациону траку на екрану</string>
+    <string name="disable_navkeys_summary">Активирај навигациону траку на екрану и угаси хардверске дугмиће</string>
     <!-- Swap hw keys -->
-    <string name="swap_navigation_keys_title">Swap hardware buttons</string>
-    <string name="swap_navigation_keys_title_summary">Swap the order of recents and back buttons</string>
+    <string name="swap_navigation_keys_title">Инвертуј функције хардверских дугмића</string>
+    <string name="swap_navigation_keys_title_summary">Инвертуј редослед дугмади за \"назад\" и \"скорашње апликације\"</string>
     <!-- Navbar -->
-    <string name="navbar_title">Navigation bar</string>
-    <string name="invert_navbar_buttons_title">Invert navigation buttons</string>
+    <string name="navbar_title">Навигациона трака</string>
+    <string name="invert_navbar_buttons_title">Инвертуј навигациону дугмад</string>
     <!-- Status bar tuner-->
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_items_title">Icons</string>
-    <string name="status_bar_items_summary">Add or remove status bar icons</string>
+    <string name="statusbar_title">Статусна трака</string>
+    <string name="statusbar_items_title">Иконице</string>
+    <string name="status_bar_items_summary">Додај или избриши иконице на статусној линији</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">Апликације преко целог екрана</string>
+    <string name="display_cutout_force_fullscreen_summary">Форсирај апликације да игноришу простор изреза</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_title_summary">Customize network traffic indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="traffic_title">Индикатор саобраћаја</string>
+    <string name="traffic_title_summary">Модификуј индикаторе мрежног саобраћаја</string>
+    <string name="network_traffic_title">Мрежни саобраћај</string>
+    <string name="network_traffic_type">Изабери тип мрежне активности</string>
+    <string name="show_network_traffic_up">Аплинк (Uplink)</string>
+    <string name="show_network_traffic_down">Даунлинк (Downlink)</string>
+    <string name="show_network_traffic_all">Аплинк и даунлинк (Uplink and Downlink)</string>
+    <string name="network_traffic_state_title">Прикажи мрежну активност у статусној линији</string>
+    <string name="network_traffic_autohide_threshold_title">Граница ауто-сакривања индикације мрежног саобраћаја</string>
+    <string name="network_traffic_hidearrow">Сакриј стрелице</string>
+    <string name="network_traffic_hidearrow_summary">Сакриј индиционе стрелице мрежног саобраћаја</string>
     <!-- Power menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-    <string name="power_menu_lockdown_title">Lockdown</string>
+    <string name="power_menu_title">Мени напајања</string>
+    <string name="power_menu_screenshot_title">Скриншот</string>
+    <string name="power_menu_screenshot_summary">Дуги притисак за парцијални скриншот</string>
+    <string name="power_menu_airplane_title">Авио-мод</string>
+    <string name="power_menu_users_title">Мењач корисника</string>
+    <string name="power_menu_bug_report_title">Пријава багова</string>
+    <string name="power_menu_bug_report_disabled">Пријава багова је онемогућена у опцијама за програмере</string>
+    <string name="power_menu_lockdown_title">Закључавање</string>
     <!-- Advanced restart options -->
-    <string name="advanced_reboot_title">Advanced restart</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
+    <string name="advanced_reboot_title">Напредни рестарт</string>
+    <string name="advanced_reboot_summary">Када је откључан, додај опције у менију напајања за рестарт у рекавери и бутлоадер</string>
+    <string name="torch_long_press_power_gesture_title">Дугме за напајње пали лампу док је угашен екран</string>
     <string name="torch_long_press_power_gesture_desc">Дуго притисни дугме напајања, док је екран угашен, да би упалио лампу</string>
     <string name="torch_long_press_power_timeout_title">Аутоматски угаси лампу</string>
     <string name="torch_long_press_power_timeout_never">Никад</string>
@@ -155,32 +155,32 @@
     <!-- Ambient edge lighting -->
     <string name="ambient_light_settings_title">Амбијентално осветљење</string>
     <string name="pulse_ambient_light_title">Светлост на ивици екрана</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="pulse_ambient_light_color_title">Edge light color</string>
+    <string name="pulse_ambient_light_summary">Упали светла на ивицама екрана при пријему обавештења</string>
+    <string name="pulse_ambient_light_color_title">Боја светла на ивицама екрана</string>
     <!-- Weather -->
-    <string name="weather_title">Weather</string>
+    <string name="weather_title">Време</string>
     <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="lockscreen_weather_category">Време</string>
+    <string name="lockscreen_weather_enabled_title">Прикажи на закључаном екрану</string>
+    <string name="lockscreen_weather_enabled_summary">Прикажи временску прогнозу на закључаном екрану и током доуз (doze) мода</string>
+    <string name="lockscreen_weather_settings_title">Подешавања за временску прогнозу</string>
+    <string name="lockscreen_weather_settings_summary">Подешавања за иконице и сервисе временске прогнозе</string>
+    <string name="weather_config_title">Сервис временске прогнозе</string>
+    <string name="weather_config_summary">Подешавања системских сервиса</string>
+    <string name="header_weather_title">Временска прогноза у заглављу</string>
+    <string name="header_weather_summary">Активирај панел обавештења за временску прогнозу</string>
+    <string name="weather_icon_pack_title">Иконице стања</string>
+    <string name="weather_icon_pack_note">Обавештење\u003a можеш инсталирати нове иконице са плеј продавнице тражећи \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Иконице стања се користе у брзим подешавањима и закључаном екрану</string>
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_title">Стил временске прогнозе</string>
+    <string name="lockscreen_weather_omni_style_title">Омни стил</string>
+    <string name="lockscreen_weather_pixel_style_title">Пиксел стил</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+    <string name="battery_health_title">Здравље батерије</string>
+    <string name="battery_health_summary">Надгледај здравље батерије твог уређаја</string>
+    <string name="current_battery_capacity">Тренутни капацитет батерије</string>
+    <string name="current_battery_capacity_summary">Тренутни капацитет батерије измерен од стране кернела</string>
+    <string name="designed_battery_capacity">Номинални капацитет батерије</string>
+    <string name="designed_battery_capacity_summary">Капацитет батерије предвиђен од стране произвођача</string>
 </resources>
