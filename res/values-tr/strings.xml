@@ -83,7 +83,7 @@
     <string name="button_wake_title">Cihazı uyandır</string>
     <string name="camera_sleep_on_release_title">Ekran görünümü</string>
     <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
-    <string name="camera_launch_title">Launch camera</string>
+    <string name="camera_launch_title">Kamerayı başlat</string>
     <string name="camera_launch_summary">A longpress and release will launch camera</string>
     <!-- Key backlight -->
     <string name="button_backlight_title">Backlight</string>
